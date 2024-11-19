@@ -12,6 +12,7 @@ The project uses **YOLOv8**, a state-of-the-art object detection model, to ident
 - **Custom Annotations**: Annotations in YOLO format are used for training and evaluation.
 - **Prediction Visualization**: Draws bounding boxes around detected glomeruli and visualizes the results.
 
-### Output example image:
-1. ![Glomerulus Detection Example](https://github.com/gabri1997/Detection_Glomeruli/blob/master/images/R22-117%20C3_mapped.jpg)
+### Output Example Image:
+- **Blue** represents the ground truth, while **green** represents YOLO predictions.
 
+1. ![Glomerulus Detection Example](https://github.com/gabri1997/Detection_Glomeruli/blob/master/images/R22-117%20C3_mapped.jpg)
