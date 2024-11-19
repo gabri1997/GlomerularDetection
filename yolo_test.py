@@ -192,30 +192,3 @@ if __name__ == '__main__':
 
 
 
-
-
-
-# # Loop attraverso tutte le immagini
-# for image_name in images:
-#     img_path = os.path.join(image_folder, image_name)
-    
-#     # Carica l'immagine
-#     img = cv2.imread(img_path)
-
-#     # Esegui la predizione
-#     results = model(img)
-    
-#     # Ottieni i risultati in formato Pandas DataFrame
-#     json_results = results.pandas().xywh[0].to_json(orient="records")
-    
-#     # Carica il JSON e aggiungi il nome dell'immagine ai risultati
-#     image_results = json.loads(json_results)
-#     for result in image_results:
-#         result["image_name"] = image_name  # Aggiungi il nome dell'immagine per tracciare a quale immagine appartiene
-    
-#     # Aggiungi i risultati di questa immagine alla lista complessiva
-#     all_results.extend(image_results)
-
-# # Salva tutti i risultati in un file JSON
-# with open('all_predictions.json', 'w') as f:
-#     json.dump(all_results, f, indent=4)
