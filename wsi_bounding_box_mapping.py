@@ -77,40 +77,7 @@ def merge_bounding_boxes(aggregated_bounding_boxes_path, output_final_complete_a
         final_boxes[slide_name] = bounding_boxes
 
     #-------------------------------
-    # Vecchia versione che non mi funziona 
-#     final_boxes = {}
-
-#    # Scorri le bounding boxes per ciascuna slide
-#     for slide_name, bounding_boxes in bb_data.items():
-#         i = 0
-#         while i < (len(bounding_boxes)):  # Continuiamo finché ci sono modifiche da fare
-#             bb1 = bounding_boxes[i]
-#             # Usa un ciclo for per scorrere tutte le bounding boxes successive
-#             for j in range(i + 1, len(bounding_boxes)):
-#                 bb2 = bounding_boxes[j]
-#                 # Verifica se le bounding boxes si intersecano
-#                 if intersection_area(bb1, bb2) > 0:
-#                     # Unisci le bounding boxes
-#                     new_bb = unite_bounding_boxes(bb1, bb2)
-#                     # Rimuovi le bounding boxes originali dalla lista
-#                     bounding_boxes.remove(bb1)
-#                     bounding_boxes.remove(bb2)
-#                     # Aggiungi la bounding box unita
-#                     new_bb  = {
-#                         'x_min': int(new_bb[0]),
-#                         'y_min' : int(new_bb[1]),
-#                         'x_max' : int(new_bb[2]),
-#                         'y_max' : int(new_bb[3]),
-#                         'confidence' : None,
-#                         'class_id' : 0, 
-#                         'class_name' : 'Glomerulo'
-#                     }
-#                     bounding_boxes.append(new_bb)
-#                     # Riavvia l'iterazione per controllare altre intersezioni
-#                     i = 0  # Riavvia l'indice principale
-#                     break  # Uscita dal ciclo for interno
-#             i += 1  # Incrementa l'indice per proseguire
-#         final_boxes[slide_name] = bounding_boxes
+    
 
     # Prendo per esempio 'R22-117 C1q'
     with open(output_final_complete_aggregated_wsi_path, 'a') as f:
