@@ -1,5 +1,3 @@
-Sure! Here’s a template for a README.md file in English for your task of glomeruli detection. I’ll include the structure for adding an image as well, and you can replace the placeholder with your actual image.
-
 # Glomeruli Detection
 
 This repository contains a project aimed at detecting glomeruli in histopathological images using deep learning techniques. The goal is to build an automated system for identifying and segmenting glomeruli regions in tissue slide images, which is useful for various medical applications, including kidney disease diagnosis.
