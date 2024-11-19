@@ -1,0 +1,6450 @@
+{
+    "R22-117 C1q": [
+        {
+            "x_min": 3467,
+            "y_min": 2305,
+            "x_max": 3713,
+            "y_max": 2630,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3859,
+            "y_min": 2613,
+            "x_max": 4168,
+            "y_max": 2932,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4608.0,
+            "y_min": 3072.0,
+            "x_max": 4752.8,
+            "y_max": 3339.0,
+            "confidence": 0.2932550311088562,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4975.6,
+            "y_min": 4344.3,
+            "x_max": 5120.0,
+            "y_max": 4607.3,
+            "confidence": 0.28847306966781616,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4719,
+            "y_min": 4804,
+            "x_max": 4949,
+            "y_max": 5063,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4484,
+            "y_min": 5629,
+            "x_max": 4666,
+            "y_max": 5829,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2806,
+            "y_min": 7618,
+            "x_max": 3083,
+            "y_max": 7986,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3755.2,
+            "y_min": 7818.1,
+            "x_max": 4041.3,
+            "y_max": 8066.8,
+            "confidence": 0.298961877822876,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2044,
+            "y_min": 8854,
+            "x_max": 2333,
+            "y_max": 9131,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3254.9,
+            "y_min": 8193.0,
+            "x_max": 3519.9,
+            "y_max": 8307.7,
+            "confidence": 0.4568593204021454,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-117 C3": [
+        {
+            "x_min": 2600,
+            "y_min": 1883,
+            "x_max": 2908,
+            "y_max": 2184,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3087,
+            "y_min": 2045,
+            "x_max": 3430,
+            "y_max": 2364,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3532,
+            "y_min": 2383,
+            "x_max": 3791,
+            "y_max": 2660,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4169,
+            "y_min": 3115,
+            "x_max": 4382,
+            "y_max": 3317,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4451,
+            "y_min": 3971,
+            "x_max": 4680,
+            "y_max": 4282,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4384,
+            "y_min": 4834,
+            "x_max": 4597,
+            "y_max": 5074,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3710,
+            "y_min": 7479,
+            "x_max": 3951,
+            "y_max": 7752,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4147,
+            "y_min": 7116,
+            "x_max": 4449,
+            "y_max": 7399,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2673,
+            "y_min": 8520,
+            "x_max": 2976,
+            "y_max": 8811,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2563.7,
+            "y_min": 7998.8,
+            "x_max": 2838.3,
+            "y_max": 8384.6,
+            "confidence": 0.44435179233551025,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-117 IgG": [
+        {
+            "x_min": 4827,
+            "y_min": 2552,
+            "x_max": 5102,
+            "y_max": 2844,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5211,
+            "y_min": 2868,
+            "x_max": 5519,
+            "y_max": 3231,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5498,
+            "y_min": 3362,
+            "x_max": 5714,
+            "y_max": 3618,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5752,
+            "y_min": 3439,
+            "x_max": 6014,
+            "y_max": 3583,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6041,
+            "y_min": 4799,
+            "x_max": 6247,
+            "y_max": 5011,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5669,
+            "y_min": 5196,
+            "x_max": 5931,
+            "y_max": 5532,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5320,
+            "y_min": 5982,
+            "x_max": 5495,
+            "y_max": 6164,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2250,
+            "y_min": 8244,
+            "x_max": 2619,
+            "y_max": 8579,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-131 C3": [
+        {
+            "x_min": 9462,
+            "y_min": 1803,
+            "x_max": 9782,
+            "y_max": 2049,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2247,
+            "y_min": 2839,
+            "x_max": 2670,
+            "y_max": 3230,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10712,
+            "y_min": 3024,
+            "x_max": 11116,
+            "y_max": 3501,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3218,
+            "y_min": 3003,
+            "x_max": 3678,
+            "y_max": 3365,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11186,
+            "y_min": 3766,
+            "x_max": 11523,
+            "y_max": 4138,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3150,
+            "y_min": 3637,
+            "x_max": 3437,
+            "y_max": 3965,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3611,
+            "y_min": 3472,
+            "x_max": 3921,
+            "y_max": 3777,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11829,
+            "y_min": 4252,
+            "x_max": 12166,
+            "y_max": 4680,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11804,
+            "y_min": 4680,
+            "x_max": 12107,
+            "y_max": 4950,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5196,
+            "y_min": 5323,
+            "x_max": 5488,
+            "y_max": 5677,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4783,
+            "y_min": 5591,
+            "x_max": 5054,
+            "y_max": 5883,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-131 IgG": [
+        {
+            "x_min": 9266,
+            "y_min": 2386,
+            "x_max": 9586,
+            "y_max": 2694,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10151,
+            "y_min": 3077,
+            "x_max": 10407,
+            "y_max": 3324,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10649,
+            "y_min": 3398,
+            "x_max": 11017,
+            "y_max": 3775,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9673,
+            "y_min": 3072,
+            "x_max": 9826,
+            "y_max": 3305,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11211,
+            "y_min": 4022,
+            "x_max": 11607,
+            "y_max": 4421,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11923,
+            "y_min": 4349,
+            "x_max": 12251,
+            "y_max": 5109,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2569,
+            "y_min": 4690,
+            "x_max": 2967,
+            "y_max": 5077,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3944,
+            "y_min": 5043,
+            "x_max": 4325,
+            "y_max": 5414,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3605,
+            "y_min": 5356,
+            "x_max": 3809,
+            "y_max": 5617,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5826,
+            "y_min": 6644,
+            "x_max": 6106,
+            "y_max": 6902,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5632.3,
+            "y_min": 6983.4,
+            "x_max": 5705.5,
+            "y_max": 7277.3,
+            "confidence": 0.3086382746696472,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-141 KAPPA": [
+        {
+            "x_min": 13224,
+            "y_min": 1868,
+            "x_max": 13559,
+            "y_max": 2176,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12690,
+            "y_min": 2281,
+            "x_max": 13041,
+            "y_max": 2623,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14848,
+            "y_min": 5180,
+            "x_max": 15085,
+            "y_max": 5435,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7974,
+            "y_min": 5124,
+            "x_max": 8303,
+            "y_max": 5497,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-141 lambda": [
+        {
+            "x_min": 4674,
+            "y_min": 11610,
+            "x_max": 5010,
+            "y_max": 11925,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5125,
+            "y_min": 11086,
+            "x_max": 5430,
+            "y_max": 11416,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6687,
+            "y_min": 3575,
+            "x_max": 6921,
+            "y_max": 3790,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7448.0,
+            "y_min": 3072.2,
+            "x_max": 7678.4,
+            "y_max": 3155.7,
+            "confidence": 0.2629331350326538,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5651,
+            "y_min": 4922,
+            "x_max": 5862,
+            "y_max": 5121,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4521.2,
+            "y_min": 6016.3,
+            "x_max": 4696.9,
+            "y_max": 6207.3,
+            "confidence": 0.3459070920944214,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9564,
+            "y_min": 7350,
+            "x_max": 9831,
+            "y_max": 7647,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8398.8,
+            "y_min": 7824.8,
+            "x_max": 8648.6,
+            "y_max": 8135.0,
+            "confidence": 0.2671894431114197,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2791,
+            "y_min": 8531,
+            "x_max": 3078,
+            "y_max": 8810,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6741,
+            "y_min": 9182,
+            "x_max": 7069,
+            "y_max": 9461,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6690,
+            "y_min": 10126,
+            "x_max": 6972,
+            "y_max": 10395,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-143 IgA": [
+        {
+            "x_min": 2306,
+            "y_min": 1251,
+            "x_max": 2560,
+            "y_max": 1614,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3099,
+            "y_min": 1549,
+            "x_max": 3377,
+            "y_max": 1872,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6474,
+            "y_min": 3490,
+            "x_max": 6920,
+            "y_max": 3872,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6194,
+            "y_min": 3673,
+            "x_max": 6463,
+            "y_max": 3936,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7897,
+            "y_min": 5290,
+            "x_max": 8269,
+            "y_max": 5678,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9083,
+            "y_min": 5734,
+            "x_max": 9384,
+            "y_max": 6088,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10723,
+            "y_min": 6831,
+            "x_max": 11044,
+            "y_max": 7187,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10754,
+            "y_min": 7563,
+            "x_max": 10847,
+            "y_max": 7790,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10329,
+            "y_min": 7659,
+            "x_max": 10420,
+            "y_max": 7758,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11077,
+            "y_min": 8459,
+            "x_max": 11510,
+            "y_max": 8868,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-154 KAPPA": [
+        {
+            "x_min": 2474,
+            "y_min": 15181,
+            "x_max": 2790,
+            "y_max": 15360,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2381,
+            "y_min": 16241,
+            "x_max": 2715,
+            "y_max": 16599,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3032,
+            "y_min": 16238,
+            "x_max": 3303,
+            "y_max": 16519,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2563.0,
+            "y_min": 15360.0,
+            "x_max": 2788.7,
+            "y_max": 15585.2,
+            "confidence": 0.6664204001426697,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3638,
+            "y_min": 20314,
+            "x_max": 3766,
+            "y_max": 20470,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9555,
+            "y_min": 21348,
+            "x_max": 9815,
+            "y_max": 21801,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8428,
+            "y_min": 23068,
+            "x_max": 8721,
+            "y_max": 23403,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8494,
+            "y_min": 23478,
+            "x_max": 8736,
+            "y_max": 23803,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5590,
+            "y_min": 4478,
+            "x_max": 5780,
+            "y_max": 4672,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6108,
+            "y_min": 4195,
+            "x_max": 6421,
+            "y_max": 4487,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6660.2,
+            "y_min": 6430.9,
+            "x_max": 6851.8,
+            "y_max": 6656.0,
+            "confidence": 0.42849844694137573,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7748,
+            "y_min": 7077,
+            "x_max": 8323,
+            "y_max": 7634,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7309,
+            "y_min": 7876,
+            "x_max": 7556,
+            "y_max": 8180,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8149,
+            "y_min": 8879,
+            "x_max": 8457,
+            "y_max": 9229,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-154 LAMBDA": [
+        {
+            "x_min": 8873.1,
+            "y_min": 10240.0,
+            "x_max": 9252.2,
+            "y_max": 10522.4,
+            "confidence": 0.2909444570541382,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 1942,
+            "y_min": 14482,
+            "x_max": 2304,
+            "y_max": 14870,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2118,
+            "y_min": 15560,
+            "x_max": 2454,
+            "y_max": 15895,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2742,
+            "y_min": 15429,
+            "x_max": 3014,
+            "y_max": 15645,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2646,
+            "y_min": 15661,
+            "x_max": 3051,
+            "y_max": 15930,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4126,
+            "y_min": 17650,
+            "x_max": 4449,
+            "y_max": 17993,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10141,
+            "y_min": 17974,
+            "x_max": 10509,
+            "y_max": 18308,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4074,
+            "y_min": 18050,
+            "x_max": 4332,
+            "y_max": 18374,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3637,
+            "y_min": 17920,
+            "x_max": 3878,
+            "y_max": 18056,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9418,
+            "y_min": 18461,
+            "x_max": 9710,
+            "y_max": 18755,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10159,
+            "y_min": 18984,
+            "x_max": 10525,
+            "y_max": 19359,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9295,
+            "y_min": 18877,
+            "x_max": 9574,
+            "y_max": 19192,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10000,
+            "y_min": 20215,
+            "x_max": 10328,
+            "y_max": 20575,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9216,
+            "y_min": 20234,
+            "x_max": 9456,
+            "y_max": 20514,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9450,
+            "y_min": 20918,
+            "x_max": 9787,
+            "y_max": 21233,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9805,
+            "y_min": 20819,
+            "x_max": 10088,
+            "y_max": 21066,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9629,
+            "y_min": 21303,
+            "x_max": 9898,
+            "y_max": 21823,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2844,
+            "y_min": 2935,
+            "x_max": 3133,
+            "y_max": 3214,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2792,
+            "y_min": 3301,
+            "x_max": 3162,
+            "y_max": 3717,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3393,
+            "y_min": 3872,
+            "x_max": 3621,
+            "y_max": 4167,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4627,
+            "y_min": 4360,
+            "x_max": 4930,
+            "y_max": 4611,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3992,
+            "y_min": 4855,
+            "x_max": 4295,
+            "y_max": 5185,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5315,
+            "y_min": 5156,
+            "x_max": 5850,
+            "y_max": 5731,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5123,
+            "y_min": 5914,
+            "x_max": 5632,
+            "y_max": 6349,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6137,
+            "y_min": 6864,
+            "x_max": 6470,
+            "y_max": 7188,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6709,
+            "y_min": 6889,
+            "x_max": 7043,
+            "y_max": 7205,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7216,
+            "y_min": 7567,
+            "x_max": 7524,
+            "y_max": 7679,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-157 C3": [
+        {
+            "x_min": 3980,
+            "y_min": 1705,
+            "x_max": 4299,
+            "y_max": 2068,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2513,
+            "y_min": 3675,
+            "x_max": 2877,
+            "y_max": 4052,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4089,
+            "y_min": 5357,
+            "x_max": 4377,
+            "y_max": 5617,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4031,
+            "y_min": 5906,
+            "x_max": 4484,
+            "y_max": 6143,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4462,
+            "y_min": 6374,
+            "x_max": 4803,
+            "y_max": 6992,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5873,
+            "y_min": 7366,
+            "x_max": 6254,
+            "y_max": 7741,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-157 IgA": [
+        {
+            "x_min": 2091,
+            "y_min": 4341,
+            "x_max": 2424,
+            "y_max": 4626,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2515,
+            "y_min": 5627,
+            "x_max": 2798,
+            "y_max": 5880,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3601,
+            "y_min": 5922,
+            "x_max": 4055,
+            "y_max": 6285,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5323,
+            "y_min": 8037,
+            "x_max": 5510,
+            "y_max": 8322,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-172 IgG": [
+        {
+            "x_min": 5613,
+            "y_min": 11750,
+            "x_max": 6545,
+            "y_max": 12409,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4805.9,
+            "y_min": 13068.5,
+            "x_max": 5070.4,
+            "y_max": 13312.0,
+            "confidence": 0.5830243229866028,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4583,
+            "y_min": 13322,
+            "x_max": 4809,
+            "y_max": 13505,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4944,
+            "y_min": 13312,
+            "x_max": 5203,
+            "y_max": 13532,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2560.0,
+            "y_min": 15171.7,
+            "x_max": 2653.2,
+            "y_max": 15359.7,
+            "confidence": 0.26036667823791504,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2261,
+            "y_min": 15266,
+            "x_max": 2560,
+            "y_max": 15554,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13512,
+            "y_min": 3762,
+            "x_max": 13696,
+            "y_max": 3970,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13113,
+            "y_min": 3959,
+            "x_max": 13364,
+            "y_max": 4194,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13399,
+            "y_min": 4284,
+            "x_max": 13603,
+            "y_max": 4493,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8444.1,
+            "y_min": 8377.7,
+            "x_max": 8703.9,
+            "y_max": 8704.0,
+            "confidence": 0.4985771179199219,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8724,
+            "y_min": 8389,
+            "x_max": 9013,
+            "y_max": 8648,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7818,
+            "y_min": 9376,
+            "x_max": 8153,
+            "y_max": 9717,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-181 C3": [
+        {
+            "x_min": 8192,
+            "y_min": 4676,
+            "x_max": 8267,
+            "y_max": 4822,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10240.9,
+            "y_min": 5632.0,
+            "x_max": 10409.6,
+            "y_max": 5787.7,
+            "confidence": 0.3845263421535492,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12117,
+            "y_min": 5942,
+            "x_max": 13059,
+            "y_max": 6805,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-181 IgA": [
+        {
+            "x_min": 9350,
+            "y_min": 6144,
+            "x_max": 9529,
+            "y_max": 6326,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11133,
+            "y_min": 6656,
+            "x_max": 11428,
+            "y_max": 6832,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11930,
+            "y_min": 7679,
+            "x_max": 12288,
+            "y_max": 8047,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-210 IgG": [
+        {
+            "x_min": 6409,
+            "y_min": 7000,
+            "x_max": 6694,
+            "y_max": 7255,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5715,
+            "y_min": 7342,
+            "x_max": 6038,
+            "y_max": 7751,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6074,
+            "y_min": 7409,
+            "x_max": 6437,
+            "y_max": 7801,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5120,
+            "y_min": 8411,
+            "x_max": 5247,
+            "y_max": 8654,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5120.6,
+            "y_min": 8192.0,
+            "x_max": 5231.1,
+            "y_max": 8383.8,
+            "confidence": 0.3470066487789154,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-93 IgA": [
+        {
+            "x_min": 1522,
+            "y_min": 1718,
+            "x_max": 1830,
+            "y_max": 2015,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5191,
+            "y_min": 1802,
+            "x_max": 5480,
+            "y_max": 2094,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8301.0,
+            "y_min": 1886.3,
+            "x_max": 8704.0,
+            "y_max": 2048.0,
+            "confidence": 0.2679905295372009,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-94 C3": [
+        {
+            "x_min": 2134,
+            "y_min": 1552,
+            "x_max": 2426,
+            "y_max": 1825,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2538,
+            "y_min": 1356,
+            "x_max": 2833,
+            "y_max": 1638,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2536,
+            "y_min": 2184,
+            "x_max": 2750,
+            "y_max": 2420,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2819,
+            "y_min": 2440,
+            "x_max": 3166,
+            "y_max": 2664,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2487,
+            "y_min": 2878,
+            "x_max": 2732,
+            "y_max": 3196,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2571,
+            "y_min": 3353,
+            "x_max": 2857,
+            "y_max": 3688,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3073,
+            "y_min": 3328,
+            "x_max": 3404,
+            "y_max": 3759,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3150,
+            "y_min": 4540,
+            "x_max": 3514,
+            "y_max": 4881,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2853,
+            "y_min": 5052,
+            "x_max": 3157,
+            "y_max": 5388,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2831,
+            "y_min": 5818,
+            "x_max": 3147,
+            "y_max": 6201,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R22-94 IgG": [
+        {
+            "x_min": 2467,
+            "y_min": 1593,
+            "x_max": 2822,
+            "y_max": 1853,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2210,
+            "y_min": 1914,
+            "x_max": 2535,
+            "y_max": 2205,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2773,
+            "y_min": 2302,
+            "x_max": 3116,
+            "y_max": 2607,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3254,
+            "y_min": 2407,
+            "x_max": 3568,
+            "y_max": 2678,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3475,
+            "y_min": 3427,
+            "x_max": 3797,
+            "y_max": 3767,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4096,
+            "y_min": 3309,
+            "x_max": 4244,
+            "y_max": 3512,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4571,
+            "y_min": 4188,
+            "x_max": 4873,
+            "y_max": 4471,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4602,
+            "y_min": 4767,
+            "x_max": 4881,
+            "y_max": 5024,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5076,
+            "y_min": 4902,
+            "x_max": 5328,
+            "y_max": 5185,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4897,
+            "y_min": 5345,
+            "x_max": 5271,
+            "y_max": 5772,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_199_2A1_C3-FITC": [
+        {
+            "x_min": 18674,
+            "y_min": 4264,
+            "x_max": 18943,
+            "y_max": 4479,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17817,
+            "y_min": 4845,
+            "x_max": 18133,
+            "y_max": 5136,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15043,
+            "y_min": 6064,
+            "x_max": 15416,
+            "y_max": 6326,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17454,
+            "y_min": 5638,
+            "x_max": 17703,
+            "y_max": 5898,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5003,
+            "y_min": 8048,
+            "x_max": 5294,
+            "y_max": 8297,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4630,
+            "y_min": 9229,
+            "x_max": 4992,
+            "y_max": 9517,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_199_2A1_IgA-FITC": [
+        {
+            "x_min": 3906,
+            "y_min": 3604,
+            "x_max": 4110,
+            "y_max": 3816,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3536,
+            "y_min": 3869,
+            "x_max": 3836,
+            "y_max": 4142,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_206_1A1_C3-FITC": [
+        {
+            "x_min": 16078,
+            "y_min": 10240,
+            "x_max": 16623,
+            "y_max": 10424,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17094,
+            "y_min": 10138,
+            "x_max": 17437,
+            "y_max": 10376,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18046,
+            "y_min": 10517,
+            "x_max": 18428,
+            "y_max": 10702,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12143,
+            "y_min": 13582,
+            "x_max": 13272,
+            "y_max": 14993,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21168,
+            "y_min": 13447,
+            "x_max": 21540,
+            "y_max": 13824,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21743,
+            "y_min": 13322,
+            "x_max": 22479,
+            "y_max": 14765,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22826,
+            "y_min": 12805,
+            "x_max": 23232,
+            "y_max": 13116,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22736,
+            "y_min": 13608,
+            "x_max": 23684,
+            "y_max": 14299,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21944,
+            "y_min": 14874,
+            "x_max": 22666,
+            "y_max": 15646,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21365,
+            "y_min": 15965,
+            "x_max": 21946,
+            "y_max": 16421,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8023,
+            "y_min": 15983,
+            "x_max": 8331,
+            "y_max": 16108,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8704,
+            "y_min": 16139,
+            "x_max": 9070,
+            "y_max": 16540,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18945.9,
+            "y_min": 16610.1,
+            "x_max": 19266.2,
+            "y_max": 16894.7,
+            "confidence": 0.3658749759197235,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9216,
+            "y_min": 16669,
+            "x_max": 9879,
+            "y_max": 17405,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19494,
+            "y_min": 16384,
+            "x_max": 19987,
+            "y_max": 16655,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20992.0,
+            "y_min": 16384.3,
+            "x_max": 21264.4,
+            "y_max": 16451.1,
+            "confidence": 0.26834970712661743,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8611.4,
+            "y_min": 16385.9,
+            "x_max": 8704.0,
+            "y_max": 16656.3,
+            "confidence": 0.324931800365448,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8704.1,
+            "y_min": 17174.2,
+            "x_max": 8814.7,
+            "y_max": 17406.4,
+            "confidence": 0.2802078425884247,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17909,
+            "y_min": 17737,
+            "x_max": 18432,
+            "y_max": 18432,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6659,
+            "y_min": 17326,
+            "x_max": 7472,
+            "y_max": 17624,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6269.8,
+            "y_min": 17413.1,
+            "x_max": 6656.0,
+            "y_max": 17679.9,
+            "confidence": 0.2998110055923462,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4338,
+            "y_min": 18633,
+            "x_max": 4960,
+            "y_max": 19337,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5301,
+            "y_min": 18565,
+            "x_max": 5630,
+            "y_max": 18956,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17987.6,
+            "y_min": 18813.0,
+            "x_max": 18430.7,
+            "y_max": 19444.0,
+            "confidence": 0.39844459295272827,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18703.9,
+            "y_min": 19456.0,
+            "x_max": 18942.4,
+            "y_max": 19694.7,
+            "confidence": 0.4718689024448395,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17251,
+            "y_min": 21170,
+            "x_max": 18695,
+            "y_max": 22455,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19074,
+            "y_min": 21552,
+            "x_max": 19794,
+            "y_max": 22429,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18687,
+            "y_min": 22669,
+            "x_max": 19268,
+            "y_max": 23287,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17920,
+            "y_min": 23032,
+            "x_max": 18051,
+            "y_max": 23190,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15955,
+            "y_min": 23040,
+            "x_max": 16247,
+            "y_max": 23204,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24628,
+            "y_min": 3944,
+            "x_max": 24990,
+            "y_max": 4096,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24170,
+            "y_min": 4177,
+            "x_max": 24582,
+            "y_max": 4514,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25600,
+            "y_min": 4810,
+            "x_max": 26348,
+            "y_max": 5522,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 26758,
+            "y_min": 4809,
+            "x_max": 27221,
+            "y_max": 5321,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22775,
+            "y_min": 5345,
+            "x_max": 23435,
+            "y_max": 5947,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24233,
+            "y_min": 5340,
+            "x_max": 25244,
+            "y_max": 6311,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24576.0,
+            "y_min": 4958.9,
+            "x_max": 24701.5,
+            "y_max": 5202.8,
+            "confidence": 0.3404620587825775,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 23989.1,
+            "y_min": 5120.7,
+            "x_max": 24294.9,
+            "y_max": 5275.8,
+            "confidence": 0.42361506819725037,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21839,
+            "y_min": 6164,
+            "x_max": 22115,
+            "y_max": 6345,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20481.1,
+            "y_min": 6656.4,
+            "x_max": 20785.4,
+            "y_max": 6740.1,
+            "confidence": 0.42951875925064087,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19307,
+            "y_min": 7899,
+            "x_max": 20002,
+            "y_max": 8671,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20614,
+            "y_min": 7798,
+            "x_max": 20914,
+            "y_max": 7972,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21226,
+            "y_min": 7770,
+            "x_max": 21907,
+            "y_max": 8326,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21636.4,
+            "y_min": 7585.8,
+            "x_max": 21791.2,
+            "y_max": 7735.5,
+            "confidence": 0.2523081302642822,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17827,
+            "y_min": 8759,
+            "x_max": 18229,
+            "y_max": 9263,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19567.9,
+            "y_min": 9073.1,
+            "x_max": 19968.0,
+            "y_max": 9215.0,
+            "confidence": 0.3055422008037567,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19968.1,
+            "y_min": 8899.7,
+            "x_max": 20206.2,
+            "y_max": 9216.0,
+            "confidence": 0.6033181548118591,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18891,
+            "y_min": 9406,
+            "x_max": 19456,
+            "y_max": 9725,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19041,
+            "y_min": 9729,
+            "x_max": 19386,
+            "y_max": 9859,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_206_1A1_IgG-FITC": [
+        {
+            "x_min": 11023,
+            "y_min": 9638,
+            "x_max": 13768,
+            "y_max": 11776,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13868,
+            "y_min": 10826,
+            "x_max": 14412,
+            "y_max": 11264,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14477,
+            "y_min": 10470,
+            "x_max": 15108,
+            "y_max": 11096,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14794,
+            "y_min": 10015,
+            "x_max": 15427,
+            "y_max": 10395,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10752,
+            "y_min": 11810,
+            "x_max": 11230,
+            "y_max": 12288,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10415,
+            "y_min": 12288,
+            "x_max": 10873,
+            "y_max": 12540,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 28176,
+            "y_min": 13212,
+            "x_max": 28808,
+            "y_max": 13708,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 29840.4,
+            "y_min": 13487.4,
+            "x_max": 30208.0,
+            "y_max": 13823.4,
+            "confidence": 0.31490805745124817,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22798,
+            "y_min": 14123,
+            "x_max": 23246,
+            "y_max": 14449,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24576,
+            "y_min": 13837,
+            "x_max": 24880,
+            "y_max": 14204,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 28710,
+            "y_min": 14131,
+            "x_max": 28945,
+            "y_max": 14321,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 26707,
+            "y_min": 13825,
+            "x_max": 27075,
+            "y_max": 14056,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17398,
+            "y_min": 15145,
+            "x_max": 17774,
+            "y_max": 15629,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19455,
+            "y_min": 14848,
+            "x_max": 20025,
+            "y_max": 15505,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20320.2,
+            "y_min": 14700.6,
+            "x_max": 20479.2,
+            "y_max": 15017.0,
+            "confidence": 0.392004132270813,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20581,
+            "y_min": 14606,
+            "x_max": 21283,
+            "y_max": 15355,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22627.9,
+            "y_min": 15178.3,
+            "x_max": 23038.8,
+            "y_max": 15354.0,
+            "confidence": 0.4581007957458496,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 23538,
+            "y_min": 15045,
+            "x_max": 23755,
+            "y_max": 15222,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25088.0,
+            "y_min": 14676.6,
+            "x_max": 25562.8,
+            "y_max": 15360.0,
+            "confidence": 0.37495651841163635,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18284,
+            "y_min": 15385,
+            "x_max": 18774,
+            "y_max": 15981,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18877,
+            "y_min": 15558,
+            "x_max": 19019,
+            "y_max": 15677,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21262,
+            "y_min": 15594,
+            "x_max": 21686,
+            "y_max": 15872,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24576,
+            "y_min": 15436,
+            "x_max": 24939,
+            "y_max": 15559,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24163.2,
+            "y_min": 15658.9,
+            "x_max": 24475.3,
+            "y_max": 15788.8,
+            "confidence": 0.3105887174606323,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25718.2,
+            "y_min": 14848.0,
+            "x_max": 26109.3,
+            "y_max": 15426.3,
+            "confidence": 0.4605039358139038,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 27228,
+            "y_min": 14848,
+            "x_max": 27643,
+            "y_max": 14989,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13866,
+            "y_min": 16047,
+            "x_max": 14259,
+            "y_max": 16378,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16011.8,
+            "y_min": 16286.3,
+            "x_max": 16381.2,
+            "y_max": 16383.5,
+            "confidence": 0.29471513628959656,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17450,
+            "y_min": 16233,
+            "x_max": 18603,
+            "y_max": 16595,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20611,
+            "y_min": 15363,
+            "x_max": 21051,
+            "y_max": 15504,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19968,
+            "y_min": 16022,
+            "x_max": 20214,
+            "y_max": 16244,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24064.0,
+            "y_min": 15363.9,
+            "x_max": 24171.9,
+            "y_max": 15613.4,
+            "confidence": 0.36671751737594604,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13650,
+            "y_min": 16478,
+            "x_max": 14336,
+            "y_max": 17163,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14788,
+            "y_min": 16602,
+            "x_max": 15293,
+            "y_max": 16990,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19597,
+            "y_min": 16419,
+            "x_max": 19778,
+            "y_max": 16569,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20271,
+            "y_min": 16298,
+            "x_max": 20568,
+            "y_max": 16559,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22903.4,
+            "y_min": 15872.7,
+            "x_max": 23116.9,
+            "y_max": 15940.3,
+            "confidence": 0.3003915250301361,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11886,
+            "y_min": 16680,
+            "x_max": 13236,
+            "y_max": 17339,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16897,
+            "y_min": 17135,
+            "x_max": 17408,
+            "y_max": 17408,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7680,
+            "y_min": 17106,
+            "x_max": 8277,
+            "y_max": 17572,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8665,
+            "y_min": 17124,
+            "x_max": 9290,
+            "y_max": 17625,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11776,
+            "y_min": 17417,
+            "x_max": 11973,
+            "y_max": 17671,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15814,
+            "y_min": 17390,
+            "x_max": 16614,
+            "y_max": 17950,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15360.0,
+            "y_min": 16898.1,
+            "x_max": 15442.2,
+            "y_max": 17128.1,
+            "confidence": 0.3989681899547577,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5433,
+            "y_min": 17382,
+            "x_max": 5927,
+            "y_max": 17805,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6046,
+            "y_min": 17538,
+            "x_max": 6791,
+            "y_max": 18704,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11787,
+            "y_min": 18122,
+            "x_max": 12198,
+            "y_max": 18281,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7168.0,
+            "y_min": 18037.9,
+            "x_max": 7554.7,
+            "y_max": 18430.9,
+            "confidence": 0.25572165846824646,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7680,
+            "y_min": 18057,
+            "x_max": 8084,
+            "y_max": 18538,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9928.0,
+            "y_min": 18261.6,
+            "x_max": 10237.7,
+            "y_max": 18432.0,
+            "confidence": 0.38409218192100525,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10160,
+            "y_min": 18827,
+            "x_max": 10543,
+            "y_max": 18942,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10559.5,
+            "y_min": 18855.9,
+            "x_max": 10944.5,
+            "y_max": 18942.5,
+            "confidence": 0.3172120153903961,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2450,
+            "y_min": 18299,
+            "x_max": 2560,
+            "y_max": 18836,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3958,
+            "y_min": 18432,
+            "x_max": 4608,
+            "y_max": 19089,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4880,
+            "y_min": 19152,
+            "x_max": 5189,
+            "y_max": 19331,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6303,
+            "y_min": 19263,
+            "x_max": 6653,
+            "y_max": 19391,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8704.2,
+            "y_min": 18949.2,
+            "x_max": 8937.5,
+            "y_max": 19175.7,
+            "confidence": 0.3031045198440552,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20480,
+            "y_min": 5155,
+            "x_max": 20770,
+            "y_max": 5572,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21429,
+            "y_min": 5348,
+            "x_max": 21902,
+            "y_max": 5779,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20992.0,
+            "y_min": 5632.0,
+            "x_max": 21398.3,
+            "y_max": 6302.3,
+            "confidence": 0.5472338199615479,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18644,
+            "y_min": 6530,
+            "x_max": 18832,
+            "y_max": 6984,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18979,
+            "y_min": 6656,
+            "x_max": 19382,
+            "y_max": 6987,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17617,
+            "y_min": 7602,
+            "x_max": 18221,
+            "y_max": 8192,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17438,
+            "y_min": 8192,
+            "x_max": 18428,
+            "y_max": 8933,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17004,
+            "y_min": 8193,
+            "x_max": 17199,
+            "y_max": 8304,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17043,
+            "y_min": 9594,
+            "x_max": 17533,
+            "y_max": 10056,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16385.0,
+            "y_min": 9217.8,
+            "x_max": 16556.3,
+            "y_max": 9539.4,
+            "confidence": 0.3387898802757263,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_206_1A1_KAPPA-FITC": [
+        {
+            "x_min": 10541,
+            "y_min": 10072,
+            "x_max": 11263,
+            "y_max": 10838,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11264,
+            "y_min": 10229,
+            "x_max": 11843,
+            "y_max": 10877,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22123,
+            "y_min": 10746,
+            "x_max": 22504,
+            "y_max": 11038,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 26666,
+            "y_min": 10241,
+            "x_max": 27040,
+            "y_max": 10310,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9421,
+            "y_min": 11325,
+            "x_max": 10373,
+            "y_max": 11991,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22157,
+            "y_min": 11264,
+            "x_max": 23128,
+            "y_max": 11794,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20195,
+            "y_min": 11836,
+            "x_max": 20918,
+            "y_max": 12664,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 23352,
+            "y_min": 11264,
+            "x_max": 24064,
+            "y_max": 11589,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9131,
+            "y_min": 12698,
+            "x_max": 9355,
+            "y_max": 12799,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19810,
+            "y_min": 12727,
+            "x_max": 20181,
+            "y_max": 13153,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20207,
+            "y_min": 12919,
+            "x_max": 20412,
+            "y_max": 13129,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21105,
+            "y_min": 12735,
+            "x_max": 21506,
+            "y_max": 13086,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9728.5,
+            "y_min": 12288.0,
+            "x_max": 9909.5,
+            "y_max": 12446.8,
+            "confidence": 0.3106933832168579,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18183,
+            "y_min": 13416,
+            "x_max": 18549,
+            "y_max": 13794,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17366,
+            "y_min": 14191,
+            "x_max": 17562,
+            "y_max": 14509,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16801,
+            "y_min": 14336,
+            "x_max": 17176,
+            "y_max": 14423,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13040,
+            "y_min": 16231,
+            "x_max": 13605,
+            "y_max": 16626,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16208,
+            "y_min": 15922,
+            "x_max": 16876,
+            "y_max": 16540,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10373,
+            "y_min": 17410,
+            "x_max": 10999,
+            "y_max": 17691,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12271,
+            "y_min": 17408,
+            "x_max": 12754,
+            "y_max": 17722,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14380.9,
+            "y_min": 17408.9,
+            "x_max": 14714.5,
+            "y_max": 17519.5,
+            "confidence": 0.255714476108551,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8333,
+            "y_min": 17918,
+            "x_max": 8829,
+            "y_max": 18343,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10015,
+            "y_min": 17921,
+            "x_max": 10789,
+            "y_max": 18167,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9315,
+            "y_min": 17920,
+            "x_max": 9786,
+            "y_max": 18074,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6173,
+            "y_min": 18712,
+            "x_max": 6845,
+            "y_max": 19437,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7076,
+            "y_min": 18806,
+            "x_max": 7756,
+            "y_max": 19896,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8194,
+            "y_min": 19125,
+            "x_max": 8580,
+            "y_max": 19547,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10588,
+            "y_min": 18956,
+            "x_max": 11243,
+            "y_max": 19652,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5578,
+            "y_min": 19456,
+            "x_max": 6236,
+            "y_max": 20181,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9170,
+            "y_min": 19298,
+            "x_max": 9728,
+            "y_max": 19968,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8704.0,
+            "y_min": 19485.9,
+            "x_max": 9099.4,
+            "y_max": 19886.1,
+            "confidence": 0.2501830458641052,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7173.6,
+            "y_min": 20478.8,
+            "x_max": 7375.9,
+            "y_max": 20616.7,
+            "confidence": 0.2692732512950897,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18273,
+            "y_min": 2901,
+            "x_max": 18701,
+            "y_max": 3277,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16631,
+            "y_min": 3165,
+            "x_max": 17303,
+            "y_max": 3884,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15622.7,
+            "y_min": 3743.0,
+            "x_max": 15872.0,
+            "y_max": 4096.0,
+            "confidence": 0.4202234745025635,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14315,
+            "y_min": 4231,
+            "x_max": 14618,
+            "y_max": 4533,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14695,
+            "y_min": 3912,
+            "x_max": 15050,
+            "y_max": 4367,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14999,
+            "y_min": 3585,
+            "x_max": 15586,
+            "y_max": 3770,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16385,
+            "y_min": 4013,
+            "x_max": 16773,
+            "y_max": 4455,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14744,
+            "y_min": 4708,
+            "x_max": 15051,
+            "y_max": 5153,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15872,
+            "y_min": 4651,
+            "x_max": 15966,
+            "y_max": 5041,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15172,
+            "y_min": 6702,
+            "x_max": 15607,
+            "y_max": 7337,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 29465.8,
+            "y_min": 8081.7,
+            "x_max": 29696.0,
+            "y_max": 8192.0,
+            "confidence": 0.3182113468647003,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15116,
+            "y_min": 7983,
+            "x_max": 15684,
+            "y_max": 8667,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 27244,
+            "y_min": 8293,
+            "x_max": 27759,
+            "y_max": 8796,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 28694,
+            "y_min": 8192,
+            "x_max": 29503,
+            "y_max": 9179,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13450.8,
+            "y_min": 8877.6,
+            "x_max": 13822.9,
+            "y_max": 9216.0,
+            "confidence": 0.36163198947906494,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14336,
+            "y_min": 8781,
+            "x_max": 14684,
+            "y_max": 9378,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11328,
+            "y_min": 9304,
+            "x_max": 11972,
+            "y_max": 9941,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12800,
+            "y_min": 9221,
+            "x_max": 13621,
+            "y_max": 9682,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 23616,
+            "y_min": 9953,
+            "x_max": 24062,
+            "y_max": 10450,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24109,
+            "y_min": 9822,
+            "x_max": 24523,
+            "y_max": 10128,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 26624.5,
+            "y_min": 9813.0,
+            "x_max": 26790.2,
+            "y_max": 10240.0,
+            "confidence": 0.3954816162586212,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_206_1A1_LAMBDA-FITC": [
+        {
+            "x_min": 15770,
+            "y_min": 10863,
+            "x_max": 16255,
+            "y_max": 11050,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14697.7,
+            "y_min": 11662.8,
+            "x_max": 15079.4,
+            "y_max": 11823.8,
+            "confidence": 0.3955034017562866,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12016,
+            "y_min": 12297,
+            "x_max": 13359,
+            "y_max": 13861,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22961,
+            "y_min": 13194,
+            "x_max": 23373,
+            "y_max": 13458,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 23616,
+            "y_min": 13030,
+            "x_max": 24089,
+            "y_max": 13824,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10426,
+            "y_min": 13313,
+            "x_max": 10797,
+            "y_max": 13422,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21727,
+            "y_min": 13625,
+            "x_max": 22474,
+            "y_max": 14233,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22777,
+            "y_min": 13994,
+            "x_max": 23673,
+            "y_max": 14636,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8342,
+            "y_min": 14240,
+            "x_max": 8792,
+            "y_max": 14335,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10122,
+            "y_min": 14303,
+            "x_max": 10703,
+            "y_max": 14565,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11266,
+            "y_min": 13825,
+            "x_max": 11592,
+            "y_max": 13937,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21380.0,
+            "y_min": 13824.2,
+            "x_max": 21677.6,
+            "y_max": 13919.4,
+            "confidence": 0.4027783274650574,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8372,
+            "y_min": 14483,
+            "x_max": 8650,
+            "y_max": 14678,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9732,
+            "y_min": 14382,
+            "x_max": 10120,
+            "y_max": 14620,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21796,
+            "y_min": 14850,
+            "x_max": 22434,
+            "y_max": 15676,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9359,
+            "y_min": 14336,
+            "x_max": 9532,
+            "y_max": 14437,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18765,
+            "y_min": 15646,
+            "x_max": 18944,
+            "y_max": 15935,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21166,
+            "y_min": 15728,
+            "x_max": 21535,
+            "y_max": 15872,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21009.0,
+            "y_min": 15117.1,
+            "x_max": 21507.1,
+            "y_max": 15667.7,
+            "confidence": 0.26950976252555847,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7816,
+            "y_min": 14848,
+            "x_max": 8282,
+            "y_max": 15020,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8704,
+            "y_min": 15105,
+            "x_max": 9334,
+            "y_max": 15827,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21131,
+            "y_min": 16036,
+            "x_max": 21485,
+            "y_max": 16434,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20482,
+            "y_min": 15750,
+            "x_max": 20799,
+            "y_max": 16152,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4902,
+            "y_min": 15869,
+            "x_max": 5283,
+            "y_max": 16199,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6340.0,
+            "y_min": 15361.5,
+            "x_max": 6656.0,
+            "y_max": 15661.3,
+            "confidence": 0.2799372971057892,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18334,
+            "y_min": 16296,
+            "x_max": 18975,
+            "y_max": 16690,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3757,
+            "y_min": 16434,
+            "x_max": 4189,
+            "y_max": 17009,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6284.9,
+            "y_min": 15872.8,
+            "x_max": 6548.9,
+            "y_max": 15988.8,
+            "confidence": 0.2737578749656677,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5240,
+            "y_min": 16888,
+            "x_max": 5622,
+            "y_max": 17227,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17410,
+            "y_min": 17257,
+            "x_max": 17933,
+            "y_max": 18007,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17408,
+            "y_min": 20722,
+            "x_max": 17509,
+            "y_max": 21205,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18101,
+            "y_min": 20443,
+            "x_max": 18276,
+            "y_max": 20656,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16100,
+            "y_min": 21265,
+            "x_max": 16874,
+            "y_max": 21916,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16896,
+            "y_min": 20812,
+            "x_max": 17408,
+            "y_max": 21998,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17910,
+            "y_min": 21239,
+            "x_max": 18703,
+            "y_max": 22211,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17408,
+            "y_min": 21517,
+            "x_max": 17560,
+            "y_max": 22067,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14577,
+            "y_min": 22016,
+            "x_max": 15253,
+            "y_max": 22654,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14190,
+            "y_min": 22509,
+            "x_max": 14336,
+            "y_max": 22861,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14726.2,
+            "y_min": 22754.3,
+            "x_max": 14847.4,
+            "y_max": 23032.6,
+            "confidence": 0.2655087113380432,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16386,
+            "y_min": 22513,
+            "x_max": 16767,
+            "y_max": 22969,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5763,
+            "y_min": 25318,
+            "x_max": 6091,
+            "y_max": 25600,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 26704,
+            "y_min": 5900,
+            "x_max": 27391,
+            "y_max": 6490,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 26848,
+            "y_min": 5121,
+            "x_max": 27257,
+            "y_max": 5191,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 27771,
+            "y_min": 6029,
+            "x_max": 28345,
+            "y_max": 6484,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25267,
+            "y_min": 6125,
+            "x_max": 26193,
+            "y_max": 7069,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 26364.3,
+            "y_min": 6569.2,
+            "x_max": 26772.6,
+            "y_max": 6655.3,
+            "confidence": 0.2511252462863922,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21397,
+            "y_min": 6658,
+            "x_max": 22004,
+            "y_max": 6848,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22698,
+            "y_min": 6762,
+            "x_max": 22918,
+            "y_max": 6927,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19086.4,
+            "y_min": 7912.4,
+            "x_max": 19453.5,
+            "y_max": 8192.0,
+            "confidence": 0.4965062439441681,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20115,
+            "y_min": 7841,
+            "x_max": 21263,
+            "y_max": 8617,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20116,
+            "y_min": 7598,
+            "x_max": 20275,
+            "y_max": 7756,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21510,
+            "y_min": 7881,
+            "x_max": 21781,
+            "y_max": 8056,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22042,
+            "y_min": 7951,
+            "x_max": 22753,
+            "y_max": 8546,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21738.8,
+            "y_min": 8108.4,
+            "x_max": 21918.4,
+            "y_max": 8191.8,
+            "confidence": 0.2712852358818054,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18570,
+            "y_min": 8422,
+            "x_max": 19005,
+            "y_max": 8864,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16723,
+            "y_min": 9548,
+            "x_max": 17150,
+            "y_max": 9759,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17850,
+            "y_min": 9584,
+            "x_max": 18007,
+            "y_max": 9728,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19514,
+            "y_min": 9219,
+            "x_max": 19871,
+            "y_max": 9485,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18615,
+            "y_min": 10109,
+            "x_max": 19369,
+            "y_max": 10262,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_209_2A1_LAMBDA_FITC": [
+        {
+            "x_min": 4504,
+            "y_min": 2025,
+            "x_max": 4695,
+            "y_max": 2201,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3489,
+            "y_min": 4468,
+            "x_max": 3903,
+            "y_max": 4758,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 1746,
+            "y_min": 6144,
+            "x_max": 1943,
+            "y_max": 6230,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_224_2A1_IgA-FITC": [
+        {
+            "x_min": 3072,
+            "y_min": 18044,
+            "x_max": 3466,
+            "y_max": 18511,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4510,
+            "y_min": 2789,
+            "x_max": 4901,
+            "y_max": 3157,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2314.7,
+            "y_min": 3356.3,
+            "x_max": 2560.0,
+            "y_max": 3584.0,
+            "confidence": 0.3189127743244171,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4573,
+            "y_min": 3226,
+            "x_max": 5041,
+            "y_max": 3691,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7124,
+            "y_min": 3815,
+            "x_max": 7443,
+            "y_max": 4200,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7800.8,
+            "y_min": 3584.0,
+            "x_max": 8191.5,
+            "y_max": 3868.7,
+            "confidence": 0.5009639263153076,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_235_2A1_IgA-FITC": [
+        {
+            "x_min": 36712,
+            "y_min": 19714,
+            "x_max": 37186,
+            "y_max": 20190,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 34634.0,
+            "y_min": 19968.6,
+            "x_max": 35054.3,
+            "y_max": 20209.6,
+            "confidence": 0.3356785774230957,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 34934,
+            "y_min": 21153,
+            "x_max": 35328,
+            "y_max": 21577,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_235_2A1_IgG-FITC": [
+        {
+            "x_min": 39519,
+            "y_min": 3482,
+            "x_max": 39961,
+            "y_max": 3951,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 37662,
+            "y_min": 4661,
+            "x_max": 38242,
+            "y_max": 5119,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_235_2A1_IgM-FITC": [
+        {
+            "x_min": 35535,
+            "y_min": 17903,
+            "x_max": 35979,
+            "y_max": 18391,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3904,
+            "y_min": 5867,
+            "x_max": 4650,
+            "y_max": 6526,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4974,
+            "y_min": 5847,
+            "x_max": 5327,
+            "y_max": 6229,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_246_1A1_C1Q-FITC": [
+        {
+            "x_min": 17295.9,
+            "y_min": 10668.7,
+            "x_max": 17577.8,
+            "y_max": 10892.7,
+            "confidence": 0.3789794445037842,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18196,
+            "y_min": 11597,
+            "x_max": 18567,
+            "y_max": 11938,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19208,
+            "y_min": 11340,
+            "x_max": 19543,
+            "y_max": 11695,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20597,
+            "y_min": 12225,
+            "x_max": 20935,
+            "y_max": 12667,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21419,
+            "y_min": 12352,
+            "x_max": 21767,
+            "y_max": 12749,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20696,
+            "y_min": 12849,
+            "x_max": 20995,
+            "y_max": 13235,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22422,
+            "y_min": 15242,
+            "x_max": 22867,
+            "y_max": 15824,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6296,
+            "y_min": 2914,
+            "x_max": 6897,
+            "y_max": 3389,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7998,
+            "y_min": 3611,
+            "x_max": 8495,
+            "y_max": 4167,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8560,
+            "y_min": 4405,
+            "x_max": 8977,
+            "y_max": 4796,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11208,
+            "y_min": 6813,
+            "x_max": 12026,
+            "y_max": 7571,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14692,
+            "y_min": 7507,
+            "x_max": 15552,
+            "y_max": 8139,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13894,
+            "y_min": 8012,
+            "x_max": 14353,
+            "y_max": 8455,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13307,
+            "y_min": 7787,
+            "x_max": 13744,
+            "y_max": 8394,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17409,
+            "y_min": 9101,
+            "x_max": 17934,
+            "y_max": 9737,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_246_1A1_C3-FITC": [
+        {
+            "x_min": 6386,
+            "y_min": 11930,
+            "x_max": 7021,
+            "y_max": 12659,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6907,
+            "y_min": 13919,
+            "x_max": 7506,
+            "y_max": 14456,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7168,
+            "y_min": 14489,
+            "x_max": 7744,
+            "y_max": 15014,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7967,
+            "y_min": 14965,
+            "x_max": 8368,
+            "y_max": 15377,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8466,
+            "y_min": 15084,
+            "x_max": 8844,
+            "y_max": 15581,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8216,
+            "y_min": 18007,
+            "x_max": 8618,
+            "y_max": 18422,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8679,
+            "y_min": 18150,
+            "x_max": 8947,
+            "y_max": 18400,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7331,
+            "y_min": 18729,
+            "x_max": 7694,
+            "y_max": 19089,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8093,
+            "y_min": 22366,
+            "x_max": 8700,
+            "y_max": 22825,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7719,
+            "y_min": 22855,
+            "x_max": 8131,
+            "y_max": 23246,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7681,
+            "y_min": 23904,
+            "x_max": 8074,
+            "y_max": 24064,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7970,
+            "y_min": 24195,
+            "x_max": 8265,
+            "y_max": 24489,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8192.2,
+            "y_min": 24574.3,
+            "x_max": 8446.6,
+            "y_max": 25070.1,
+            "confidence": 0.44216325879096985,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6922,
+            "y_min": 25763,
+            "x_max": 7415,
+            "y_max": 26308,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6822,
+            "y_min": 5387,
+            "x_max": 7291,
+            "y_max": 5901,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7246,
+            "y_min": 7183,
+            "x_max": 7642,
+            "y_max": 7596,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6921,
+            "y_min": 8031,
+            "x_max": 7305,
+            "y_max": 8467,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_246_1A1_IGG-FITC": [
+        {
+            "x_min": 10754,
+            "y_min": 10782,
+            "x_max": 11129,
+            "y_max": 11124,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11885,
+            "y_min": 10508,
+            "x_max": 12317,
+            "y_max": 10664,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12468,
+            "y_min": 10862,
+            "x_max": 12749,
+            "y_max": 11081,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14701,
+            "y_min": 11023,
+            "x_max": 14993,
+            "y_max": 11237,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9898,
+            "y_min": 10661,
+            "x_max": 10083,
+            "y_max": 10873,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12971,
+            "y_min": 11635,
+            "x_max": 13362,
+            "y_max": 11964,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14369,
+            "y_min": 11330,
+            "x_max": 14639,
+            "y_max": 11581,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14398,
+            "y_min": 11640,
+            "x_max": 14956,
+            "y_max": 11776,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12299,
+            "y_min": 11950,
+            "x_max": 12436,
+            "y_max": 12066,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13611,
+            "y_min": 11669,
+            "x_max": 13910,
+            "y_max": 11967,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17073,
+            "y_min": 12190,
+            "x_max": 17608,
+            "y_max": 12660,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18595,
+            "y_min": 13204,
+            "x_max": 18869,
+            "y_max": 13442,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19141,
+            "y_min": 13664,
+            "x_max": 19428,
+            "y_max": 13934,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16781.9,
+            "y_min": 13627.0,
+            "x_max": 16994.0,
+            "y_max": 13795.0,
+            "confidence": 0.32783567905426025,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18125,
+            "y_min": 14580,
+            "x_max": 18522,
+            "y_max": 14983,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19139,
+            "y_min": 14248,
+            "x_max": 19432,
+            "y_max": 14548,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19741,
+            "y_min": 14677,
+            "x_max": 20151,
+            "y_max": 15059,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21324,
+            "y_min": 14893,
+            "x_max": 21755,
+            "y_max": 15398,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22673,
+            "y_min": 17775,
+            "x_max": 23004,
+            "y_max": 18213,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3242,
+            "y_min": 7461,
+            "x_max": 3538,
+            "y_max": 7787,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5529,
+            "y_min": 7694,
+            "x_max": 6074,
+            "y_max": 8328,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7130,
+            "y_min": 8205,
+            "x_max": 7743,
+            "y_max": 8835,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7957,
+            "y_min": 8988,
+            "x_max": 8230,
+            "y_max": 9241,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8513,
+            "y_min": 8734,
+            "x_max": 8877,
+            "y_max": 9125,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_246_1A1_KAPPA-FITC": [
+        {
+            "x_min": 22771,
+            "y_min": 10271,
+            "x_max": 23141,
+            "y_max": 10761,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22959,
+            "y_min": 10934,
+            "x_max": 23277,
+            "y_max": 11271,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 23804,
+            "y_min": 11426,
+            "x_max": 24105,
+            "y_max": 11794,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24383,
+            "y_min": 11496,
+            "x_max": 25019,
+            "y_max": 11776,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25088,
+            "y_min": 11919,
+            "x_max": 25229,
+            "y_max": 12227,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24548,
+            "y_min": 12288,
+            "x_max": 24825,
+            "y_max": 12399,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24827.7,
+            "y_min": 12288.6,
+            "x_max": 25054.2,
+            "y_max": 12424.4,
+            "confidence": 0.27570876479148865,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25072,
+            "y_min": 12997,
+            "x_max": 25473,
+            "y_max": 13480,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25642,
+            "y_min": 13180,
+            "x_max": 26329,
+            "y_max": 13881,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5635.4,
+            "y_min": 2750.7,
+            "x_max": 5944.2,
+            "y_max": 3072.0,
+            "confidence": 0.2867303490638733,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4467,
+            "y_min": 3560,
+            "x_max": 4681,
+            "y_max": 3804,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6598,
+            "y_min": 3824,
+            "x_max": 6838,
+            "y_max": 4096,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6949.4,
+            "y_min": 3795.8,
+            "x_max": 7166.6,
+            "y_max": 4096.0,
+            "confidence": 0.28255119919776917,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7466,
+            "y_min": 3851,
+            "x_max": 7760,
+            "y_max": 4172,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10328,
+            "y_min": 4884,
+            "x_max": 10640,
+            "y_max": 5141,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9422.7,
+            "y_min": 4588.1,
+            "x_max": 9728.0,
+            "y_max": 4959.5,
+            "confidence": 0.5747054219245911,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9867,
+            "y_min": 4925,
+            "x_max": 10188,
+            "y_max": 5197,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11264,
+            "y_min": 5607,
+            "x_max": 11379,
+            "y_max": 5782,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12927,
+            "y_min": 6771,
+            "x_max": 13713,
+            "y_max": 7534,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15514,
+            "y_min": 6644,
+            "x_max": 17050,
+            "y_max": 7867,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15011,
+            "y_min": 7413,
+            "x_max": 15371,
+            "y_max": 7780,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13824.0,
+            "y_min": 7168.0,
+            "x_max": 14250.9,
+            "y_max": 7816.8,
+            "confidence": 0.5995261073112488,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14526,
+            "y_min": 7680,
+            "x_max": 14979,
+            "y_max": 7922,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 17764,
+            "y_min": 8563,
+            "x_max": 18126,
+            "y_max": 8966,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19168,
+            "y_min": 9301,
+            "x_max": 19556,
+            "y_max": 9665,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_246_1A1_LAMBDA-FITC": [
+        {
+            "x_min": 19996,
+            "y_min": 10240,
+            "x_max": 20254,
+            "y_max": 10505,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20543,
+            "y_min": 10730,
+            "x_max": 20822,
+            "y_max": 10977,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19473,
+            "y_min": 11624,
+            "x_max": 19916,
+            "y_max": 12049,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20498,
+            "y_min": 11264,
+            "x_max": 21336,
+            "y_max": 11649,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20501,
+            "y_min": 11824,
+            "x_max": 20805,
+            "y_max": 12112,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21072,
+            "y_min": 11754,
+            "x_max": 21513,
+            "y_max": 12169,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22437,
+            "y_min": 12093,
+            "x_max": 22658,
+            "y_max": 12293,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22704,
+            "y_min": 11977,
+            "x_max": 23193,
+            "y_max": 12537,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 23209,
+            "y_min": 13313,
+            "x_max": 24148,
+            "y_max": 14335,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 24131,
+            "y_min": 15006,
+            "x_max": 24466,
+            "y_max": 15360,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4521,
+            "y_min": 3478,
+            "x_max": 4866,
+            "y_max": 3826,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6816,
+            "y_min": 3854,
+            "x_max": 7439,
+            "y_max": 4423,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8454,
+            "y_min": 4437,
+            "x_max": 9104,
+            "y_max": 5120,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9270,
+            "y_min": 5310,
+            "x_max": 9556,
+            "y_max": 5584,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9841,
+            "y_min": 5124,
+            "x_max": 10217,
+            "y_max": 5481,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13312.0,
+            "y_min": 7168.0,
+            "x_max": 13681.4,
+            "y_max": 7367.3,
+            "confidence": 0.47184354066848755,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16101,
+            "y_min": 7799,
+            "x_max": 16408,
+            "y_max": 8035,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15731,
+            "y_min": 8097,
+            "x_max": 16080,
+            "y_max": 8478,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14937,
+            "y_min": 8412,
+            "x_max": 15240,
+            "y_max": 8739,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 14336,
+            "y_min": 8264,
+            "x_max": 14734,
+            "y_max": 9010,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13586,
+            "y_min": 8618,
+            "x_max": 13717,
+            "y_max": 8757,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 13312.0,
+            "y_min": 8200.2,
+            "x_max": 13636.1,
+            "y_max": 8565.1,
+            "confidence": 0.38535499572753906,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 15155,
+            "y_min": 9186,
+            "x_max": 15360,
+            "y_max": 9345,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16720,
+            "y_min": 9087,
+            "x_max": 16896,
+            "y_max": 9728,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 16896,
+            "y_min": 9194,
+            "x_max": 17149,
+            "y_max": 9452,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 18446,
+            "y_min": 9062,
+            "x_max": 19064,
+            "y_max": 9679,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_251_2A1_C3-FITC": [
+        {
+            "x_min": 9609,
+            "y_min": 10473,
+            "x_max": 10206,
+            "y_max": 11036,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5258,
+            "y_min": 3187,
+            "x_max": 5632,
+            "y_max": 3638,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5713.1,
+            "y_min": 3072.0,
+            "x_max": 6144.0,
+            "y_max": 3332.8,
+            "confidence": 0.45558449625968933,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6698,
+            "y_min": 4142,
+            "x_max": 7221,
+            "y_max": 4628,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6370,
+            "y_min": 4648,
+            "x_max": 6638,
+            "y_max": 4878,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8000,
+            "y_min": 5120,
+            "x_max": 9215,
+            "y_max": 6591,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8690,
+            "y_min": 6761,
+            "x_max": 8971,
+            "y_max": 7081,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9344,
+            "y_min": 7672,
+            "x_max": 9928,
+            "y_max": 8181,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_251_2A1_IGG-FITC": [
+        {
+            "x_min": 4608,
+            "y_min": 3178,
+            "x_max": 5045,
+            "y_max": 3534,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5660,
+            "y_min": 3986,
+            "x_max": 6015,
+            "y_max": 4295,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6106,
+            "y_min": 3545,
+            "x_max": 6588,
+            "y_max": 4018,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7331,
+            "y_min": 4506,
+            "x_max": 8528,
+            "y_max": 5860,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7965,
+            "y_min": 6027,
+            "x_max": 8327,
+            "y_max": 6414,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8740,
+            "y_min": 6504,
+            "x_max": 9549,
+            "y_max": 7396,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8943,
+            "y_min": 9756,
+            "x_max": 9493,
+            "y_max": 10321,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_255_2A1_C3-FITC": [
+        {
+            "x_min": 3836,
+            "y_min": 13995,
+            "x_max": 4247,
+            "y_max": 14447,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4435,
+            "y_min": 14393,
+            "x_max": 5063,
+            "y_max": 15085,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4692,
+            "y_min": 15706,
+            "x_max": 5611,
+            "y_max": 16680,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5829,
+            "y_min": 17499,
+            "x_max": 6592,
+            "y_max": 18478,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8133,
+            "y_min": 18815,
+            "x_max": 8616,
+            "y_max": 19291,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9205,
+            "y_min": 19570,
+            "x_max": 9754,
+            "y_max": 20072,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 38841,
+            "y_min": 3961,
+            "x_max": 39246,
+            "y_max": 4437,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 38499,
+            "y_min": 5039,
+            "x_max": 38868,
+            "y_max": 5385,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 39165,
+            "y_min": 5140,
+            "x_max": 40079,
+            "y_max": 6123,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 40495,
+            "y_min": 6770,
+            "x_max": 41274,
+            "y_max": 7690,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 43181,
+            "y_min": 7641,
+            "x_max": 43728,
+            "y_max": 8120,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 44353,
+            "y_min": 8189,
+            "x_max": 44938,
+            "y_max": 8709,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_269_1A1_IGG-FITC": [
+        {
+            "x_min": 12672,
+            "y_min": 11170,
+            "x_max": 13207,
+            "y_max": 11543,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12934.7,
+            "y_min": 11776.0,
+            "x_max": 13312.0,
+            "y_max": 11938.9,
+            "confidence": 0.2904108762741089,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9787,
+            "y_min": 12124,
+            "x_max": 10325,
+            "y_max": 12728,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8441,
+            "y_min": 12721,
+            "x_max": 8901,
+            "y_max": 13183,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5600,
+            "y_min": 13388,
+            "x_max": 6206,
+            "y_max": 13910,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 25601,
+            "y_min": 2200,
+            "x_max": 26080,
+            "y_max": 2568,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 21836,
+            "y_min": 3184,
+            "x_max": 22274,
+            "y_max": 3685,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 22699,
+            "y_min": 2902,
+            "x_max": 23356,
+            "y_max": 3623,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 19428,
+            "y_min": 3937,
+            "x_max": 19734,
+            "y_max": 4327,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20166,
+            "y_min": 4398,
+            "x_max": 20599,
+            "y_max": 4851,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 20647,
+            "y_min": 3956,
+            "x_max": 21287,
+            "y_max": 4608,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3769.0,
+            "y_min": 4211.6,
+            "x_max": 4096.0,
+            "y_max": 4606.6,
+            "confidence": 0.251997172832489,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7652,
+            "y_min": 5328,
+            "x_max": 8224,
+            "y_max": 5783,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_273_2A1_IGG-FITC": [
+        {
+            "x_min": 3771,
+            "y_min": 2315,
+            "x_max": 4035,
+            "y_max": 2567,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_278_2A1_ KAPPA-FITC": [
+        {
+            "x_min": 6395,
+            "y_min": 11466,
+            "x_max": 6942,
+            "y_max": 12026,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7442,
+            "y_min": 12991,
+            "x_max": 7881,
+            "y_max": 13404,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_278_2A1_LAMBDA-FITC": [
+        {
+            "x_min": 51607,
+            "y_min": 26471,
+            "x_max": 51914,
+            "y_max": 26890,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5255,
+            "y_min": 9451,
+            "x_max": 5561,
+            "y_max": 9791,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_281_2A1_C1q-FITC": [
+        {
+            "x_min": 40323,
+            "y_min": 11715,
+            "x_max": 40939,
+            "y_max": 12431,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9208,
+            "y_min": 12419,
+            "x_max": 9738,
+            "y_max": 13016,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10393,
+            "y_min": 15151,
+            "x_max": 10978,
+            "y_max": 15866,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 40718,
+            "y_min": 15871,
+            "x_max": 40958,
+            "y_max": 16258,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10143,
+            "y_min": 16967,
+            "x_max": 10668,
+            "y_max": 17532,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 35300,
+            "y_min": 17174,
+            "x_max": 35766,
+            "y_max": 17752,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 37009,
+            "y_min": 18466,
+            "x_max": 37632,
+            "y_max": 19275,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4096,
+            "y_min": 18666,
+            "x_max": 4357,
+            "y_max": 19116,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5632,
+            "y_min": 21636,
+            "x_max": 6023,
+            "y_max": 22284,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_281_2A1_C3-FITC": [
+        {
+            "x_min": 46094,
+            "y_min": 15583,
+            "x_max": 46404,
+            "y_max": 15872,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 45549,
+            "y_min": 16310,
+            "x_max": 46237,
+            "y_max": 17053,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10661,
+            "y_min": 17007,
+            "x_max": 11229,
+            "y_max": 17589,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 46644,
+            "y_min": 19189,
+            "x_max": 47155,
+            "y_max": 19547,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 12116,
+            "y_min": 19673,
+            "x_max": 12678,
+            "y_max": 20480,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 47114,
+            "y_min": 20698,
+            "x_max": 47573,
+            "y_max": 21168,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 44371.9,
+            "y_min": 20652.6,
+            "x_max": 44543.7,
+            "y_max": 21113.7,
+            "confidence": 0.3804321587085724,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11957,
+            "y_min": 21365,
+            "x_max": 12506,
+            "y_max": 22175,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 41332,
+            "y_min": 22637,
+            "x_max": 41971,
+            "y_max": 23283,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 41984,
+            "y_min": 24577,
+            "x_max": 42091,
+            "y_max": 24867,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_281_2A1_IGG-FITC": [
+        {
+            "x_min": 9805,
+            "y_min": 11264,
+            "x_max": 10309,
+            "y_max": 11984,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3426,
+            "y_min": 12332,
+            "x_max": 3756,
+            "y_max": 12760,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3207,
+            "y_min": 12850,
+            "x_max": 3856,
+            "y_max": 13471,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8704,
+            "y_min": 12766,
+            "x_max": 9008,
+            "y_max": 13221,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9569,
+            "y_min": 13037,
+            "x_max": 10223,
+            "y_max": 13856,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8411,
+            "y_min": 8636,
+            "x_max": 8915,
+            "y_max": 9085,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_281_2A1_IgA-FITC": [
+        {
+            "x_min": 57413,
+            "y_min": 9785,
+            "x_max": 58102,
+            "y_max": 10518,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6099,
+            "y_min": 11240,
+            "x_max": 6873,
+            "y_max": 11857,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 11725.9,
+            "y_min": 8192.4,
+            "x_max": 12204.6,
+            "y_max": 8444.4,
+            "confidence": 0.2560698688030243,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R23_281_2A1_IgM-FITC": [
+        {
+            "x_min": 8782,
+            "y_min": 11516,
+            "x_max": 9408,
+            "y_max": 12106,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 44462,
+            "y_min": 11725,
+            "x_max": 45003,
+            "y_max": 12488,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10468,
+            "y_min": 12880,
+            "x_max": 10976,
+            "y_max": 13399,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10051,
+            "y_min": 14152,
+            "x_max": 10702,
+            "y_max": 14867,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 45514,
+            "y_min": 14235,
+            "x_max": 45998,
+            "y_max": 14836,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9943,
+            "y_min": 15757,
+            "x_max": 10588,
+            "y_max": 16486,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 46078,
+            "y_min": 15825,
+            "x_max": 46497,
+            "y_max": 16311,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 39083,
+            "y_min": 17148,
+            "x_max": 39468,
+            "y_max": 17615,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3817.2,
+            "y_min": 17930.3,
+            "x_max": 4397.5,
+            "y_max": 18523.0,
+            "confidence": 0.26448142528533936,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 40369,
+            "y_min": 18437,
+            "x_max": 40909,
+            "y_max": 18975,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5632,
+            "y_min": 20598,
+            "x_max": 6093,
+            "y_max": 21152,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_03_1A1_C1Q-FITC": [
+        {
+            "x_min": 2656,
+            "y_min": 10467,
+            "x_max": 3146,
+            "y_max": 10822,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5443,
+            "y_min": 10115,
+            "x_max": 5763,
+            "y_max": 10456,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2892,
+            "y_min": 11776,
+            "x_max": 6110,
+            "y_max": 14957,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3468,
+            "y_min": 15493,
+            "x_max": 3575,
+            "y_max": 15695,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6133,
+            "y_min": 16124,
+            "x_max": 6794,
+            "y_max": 16682,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4720,
+            "y_min": 16559,
+            "x_max": 5606,
+            "y_max": 17277,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5194.9,
+            "y_min": 17795.9,
+            "x_max": 5581.5,
+            "y_max": 17920.0,
+            "confidence": 0.2615221440792084,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3975,
+            "y_min": 2483,
+            "x_max": 4478,
+            "y_max": 3091,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5172,
+            "y_min": 2939,
+            "x_max": 5550,
+            "y_max": 3335,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4596,
+            "y_min": 3602,
+            "x_max": 5384,
+            "y_max": 4771,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2733,
+            "y_min": 7310,
+            "x_max": 4270,
+            "y_max": 8180,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5111,
+            "y_min": 7169,
+            "x_max": 5628,
+            "y_max": 7427,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4753,
+            "y_min": 8117,
+            "x_max": 5529,
+            "y_max": 8743,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3093,
+            "y_min": 8478,
+            "x_max": 3583,
+            "y_max": 9011,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3812,
+            "y_min": 8917,
+            "x_max": 4518,
+            "y_max": 9429,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2689,
+            "y_min": 9140,
+            "x_max": 3439,
+            "y_max": 9922,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 3682,
+            "y_min": 9728,
+            "x_max": 4492,
+            "y_max": 10364,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_03_1A1_C3-FITC": [
+        {
+            "x_min": 6795.9,
+            "y_min": 12801.0,
+            "x_max": 7167.9,
+            "y_max": 13125.8,
+            "confidence": 0.2681935727596283,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7755.2,
+            "y_min": 12849.9,
+            "x_max": 8219.4,
+            "y_max": 13327.3,
+            "confidence": 0.33424919843673706,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5287.7,
+            "y_min": 14726.8,
+            "x_max": 5627.5,
+            "y_max": 15209.6,
+            "confidence": 0.2700852155685425,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5938.0,
+            "y_min": 15872.0,
+            "x_max": 6144.0,
+            "y_max": 16252.3,
+            "confidence": 0.33119356632232666,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4099.0,
+            "y_min": 3892.6,
+            "x_max": 4613.3,
+            "y_max": 4286.3,
+            "confidence": 0.3477896451950073,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5465.5,
+            "y_min": 4141.4,
+            "x_max": 5632.0,
+            "y_max": 4555.3,
+            "confidence": 0.29560399055480957,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4829.2,
+            "y_min": 5632.0,
+            "x_max": 5120.0,
+            "y_max": 5846.2,
+            "confidence": 0.29842498898506165,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4694,
+            "y_min": 6578,
+            "x_max": 5017,
+            "y_max": 6953,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_03_1A1_IGA-FITC": [
+        {
+            "x_min": 8935,
+            "y_min": 636,
+            "x_max": 9271,
+            "y_max": 1089,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5277,
+            "y_min": 11233,
+            "x_max": 5738,
+            "y_max": 11581,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5368.7,
+            "y_min": 10755.8,
+            "x_max": 5632.0,
+            "y_max": 11096.3,
+            "confidence": 0.32957902550697327,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5120,
+            "y_min": 12800,
+            "x_max": 5725,
+            "y_max": 13532,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4943,
+            "y_min": 14037,
+            "x_max": 5448,
+            "y_max": 14513,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4562,
+            "y_min": 16242,
+            "x_max": 5207,
+            "y_max": 16889,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7985,
+            "y_min": 3077,
+            "x_max": 8700,
+            "y_max": 3743,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8704.3,
+            "y_min": 3196.0,
+            "x_max": 9010.7,
+            "y_max": 3584.0,
+            "confidence": 0.27665311098098755,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7585,
+            "y_min": 4423,
+            "x_max": 8258,
+            "y_max": 5120,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7680.0,
+            "y_min": 5611.9,
+            "x_max": 8109.9,
+            "y_max": 6144.0,
+            "confidence": 0.44818025827407837,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7453,
+            "y_min": 6144,
+            "x_max": 8113,
+            "y_max": 6529,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7681.0,
+            "y_min": 6809.7,
+            "x_max": 8099.6,
+            "y_max": 7168.0,
+            "confidence": 0.38453468680381775,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6221,
+            "y_min": 7012,
+            "x_max": 6854,
+            "y_max": 7680,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6476,
+            "y_min": 8520,
+            "x_max": 7192,
+            "y_max": 9245,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6177,
+            "y_min": 9337,
+            "x_max": 6818,
+            "y_max": 9923,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_03_1A1_IGG-FITC": [
+        {
+            "x_min": 5944.2,
+            "y_min": 16126.1,
+            "x_max": 6279.2,
+            "y_max": 16383.6,
+            "confidence": 0.2550472021102905,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4390,
+            "y_min": 6472,
+            "x_max": 5120,
+            "y_max": 8192,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5120,
+            "y_min": 7776,
+            "x_max": 5387,
+            "y_max": 8363,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_10_2A1_KAPPA-FITC": [
+        {
+            "x_min": 11090.3,
+            "y_min": 11850.1,
+            "x_max": 11264.0,
+            "y_max": 12288.0,
+            "confidence": 0.26055553555488586,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 10602,
+            "y_min": 13355,
+            "x_max": 11020,
+            "y_max": 13827,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9166,
+            "y_min": 14899,
+            "x_max": 9624,
+            "y_max": 15283,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9216.0,
+            "y_min": 14336.0,
+            "x_max": 9638.5,
+            "y_max": 14569.7,
+            "confidence": 0.2826521396636963,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8680,
+            "y_min": 15573,
+            "x_max": 9050,
+            "y_max": 16098,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5682,
+            "y_min": 17598,
+            "x_max": 6132,
+            "y_max": 17931,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6346.9,
+            "y_min": 17683.5,
+            "x_max": 6668.8,
+            "y_max": 17917.1,
+            "confidence": 0.28463464975357056,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 2560,
+            "y_min": 18473,
+            "x_max": 2875,
+            "y_max": 18751,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7838,
+            "y_min": 3123,
+            "x_max": 8191,
+            "y_max": 3485,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 8710,
+            "y_min": 4771,
+            "x_max": 9096,
+            "y_max": 5165,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 9505.6,
+            "y_min": 7176.8,
+            "x_max": 9727.5,
+            "y_max": 7409.9,
+            "confidence": 0.3542938232421875,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_10_2A1_LAMBDA-FITC": [
+        {
+            "x_min": 9366,
+            "y_min": 8347,
+            "x_max": 9821,
+            "y_max": 8762,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_17_2A1_C3-FITC": [
+        {
+            "x_min": 45366,
+            "y_min": 10595,
+            "x_max": 45725,
+            "y_max": 11179,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 44822,
+            "y_min": 12710,
+            "x_max": 45209,
+            "y_max": 13128,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6573,
+            "y_min": 12126,
+            "x_max": 7175,
+            "y_max": 12863,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7309,
+            "y_min": 12207,
+            "x_max": 7985,
+            "y_max": 12925,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 44204,
+            "y_min": 13388,
+            "x_max": 44904,
+            "y_max": 14087,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 44937,
+            "y_min": 13496,
+            "x_max": 45513,
+            "y_max": 14195,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 45402.3,
+            "y_min": 14336.0,
+            "x_max": 45567.6,
+            "y_max": 14659.4,
+            "confidence": 0.2763516902923584,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6144.0,
+            "y_min": 14848.0,
+            "x_max": 6351.9,
+            "y_max": 15107.1,
+            "confidence": 0.36349374055862427,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5732,
+            "y_min": 16827,
+            "x_max": 6142,
+            "y_max": 17289,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5120,
+            "y_min": 17551,
+            "x_max": 5390,
+            "y_max": 17990,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 44993,
+            "y_min": 6990,
+            "x_max": 45285,
+            "y_max": 7377,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6867,
+            "y_min": 9197,
+            "x_max": 7259,
+            "y_max": 9527,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 7890,
+            "y_min": 9331,
+            "x_max": 8243,
+            "y_max": 9870,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 43653.1,
+            "y_min": 10647.0,
+            "x_max": 44032.0,
+            "y_max": 10752.0,
+            "confidence": 0.2627655267715454,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_17_2A1_IgA-FITC": [
+        {
+            "x_min": 38020,
+            "y_min": 10424,
+            "x_max": 38391,
+            "y_max": 10769,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 39773,
+            "y_min": 10346,
+            "x_max": 40135,
+            "y_max": 10994,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4889,
+            "y_min": 10409,
+            "x_max": 5502,
+            "y_max": 10916,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5668,
+            "y_min": 10405,
+            "x_max": 6304,
+            "y_max": 11023,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 39178,
+            "y_min": 12515,
+            "x_max": 39491,
+            "y_max": 12893,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 38510,
+            "y_min": 13165,
+            "x_max": 39212,
+            "y_max": 13820,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 39275,
+            "y_min": 13310,
+            "x_max": 39886,
+            "y_max": 13875,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4534,
+            "y_min": 15023,
+            "x_max": 5057,
+            "y_max": 15513,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 39497,
+            "y_min": 6697,
+            "x_max": 39769,
+            "y_max": 7044,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 38402,
+            "y_min": 7153,
+            "x_max": 38752,
+            "y_max": 7487,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4761,
+            "y_min": 7457,
+            "x_max": 5185,
+            "y_max": 7845,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 5777,
+            "y_min": 7556,
+            "x_max": 6098,
+            "y_max": 8047,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 39681,
+            "y_min": 8396,
+            "x_max": 39973,
+            "y_max": 8773,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ],
+    "R24_44_2A1_IgG-FITC": [
+        {
+            "x_min": 27495,
+            "y_min": 9869,
+            "x_max": 28017,
+            "y_max": 10397,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 4714,
+            "y_min": 15958,
+            "x_max": 5741,
+            "y_max": 16896,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 6042,
+            "y_min": 15872,
+            "x_max": 6840,
+            "y_max": 16636,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 29932,
+            "y_min": 5655,
+            "x_max": 30212,
+            "y_max": 5928,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 29265,
+            "y_min": 7408,
+            "x_max": 29937,
+            "y_max": 8124,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        },
+        {
+            "x_min": 27950,
+            "y_min": 7798,
+            "x_max": 28661,
+            "y_max": 8695,
+            "confidence": null,
+            "class_id": 0,
+            "class_name": "Glomerulo"
+        }
+    ]
+}
