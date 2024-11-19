@@ -1,0 +1,43 @@
+# Escludere le cartelle __pycache__
+__pycache__/
+# Escludere tutte le cartelle
+*/
+
+# Escludere specifici tipi di file
+*.conf
+*.jpg
+*.svs
+*.ndpi
+*.sh
+*.pt
+*.txt
+*.yaml
+*.error
+*.out
+*.json
+
+# Escludere le cartelle __pycache__
+__pycache__/
+
+# Escludere tutti i .py per impostazione predefinita
+*.py
+
+# Includere file specifici .txt e .yaml
+
+# Includere script Python specifici (usa il ! per escluderli dall'esclusione)
+!wsi_visualizer.py
+!patchifier.py
+!folder_organizer.py
+!yolo_train.py
+!yolo_test.py
+!wsi_bounding_box_mapping.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
