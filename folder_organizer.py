@@ -112,3 +112,4 @@ if __name__ == '__main__':
         json.dump(split_info, info, indent=4)
     #copy_files_by_prefisso(annotazioni_folder, train_prefissi, dest_train_immagini_folder, dest_train_annotazioni_folder)
     #copy_files_by_prefisso(annotazioni_folder, val_prefissi, dest_val_immagini_folder, dest_val_annotazioni_folder)
+    print('END')
