@@ -13,4 +13,4 @@ The project uses **YOLOv8**, a state-of-the-art object detection model, to ident
 - **Prediction Visualization**: Draws bounding boxes around detected glomeruli and visualizes the results.
 
 - ### Notes:
-1. **`![Glomerulus Detection Example](R22-117 C3_mapped.jpg)`**
+1. **`![Glomerulus Detection Example](images/R22-117 C3_mapped.jpg)`**
