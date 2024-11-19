@@ -11,3 +11,6 @@ The project uses **YOLOv8**, a state-of-the-art object detection model, to ident
 - **Preprocessing**: Handles the segmentation and patching of WSIs for training purposes.
 - **Custom Annotations**: Annotations in YOLO format are used for training and evaluation.
 - **Prediction Visualization**: Draws bounding boxes around detected glomeruli and visualizes the results.
+
+- ### Notes:
+1. **`![Glomerulus Detection Example](path/to/your/image.jpg)`**
