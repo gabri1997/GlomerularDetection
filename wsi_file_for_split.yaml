@@ -1,0 +1,325 @@
+WSI:
+  1:
+    - R22-90 C3
+    - R22-90 IgG
+  2:
+    - R22-93 IgA
+  3:
+    - R22-94 IgA
+    - R22-94 IgA
+  4:
+    - R22-98 IgG
+    - R22-98 kappa
+    - R22-98 lambda
+  5:
+    - R22-104 C3
+    - R22-104 IgG
+  6:
+    - R22-106 IgG
+  7:
+    - R22-107 IgA
+  8:
+    - R22-117 C1q
+    - R22-117 C3
+    - R22-117 IgG
+  9:
+    - R22-119 IgG
+  10:
+    - R22-131 C3
+    - R22-131 IgG
+  11:
+    - R22-132 IgG
+  12:
+    - R22-135 C3
+  13:
+    - R22-141 KAPPA
+    - R22-141 lambda
+  14:
+    - R22-142 C1q
+    - R22-142 IgG
+  15:
+    - R22-143 IgA
+  16:
+    - R22-151 IGA
+  17:
+    - R22-152 IGA
+  18:
+    - R22-154 KAPPA
+    - R22-154 LAMBDA
+  19:
+    - R22-157 C3
+    - R22-157 IgA
+  20:
+    - R22-162 IgA
+  21:
+    - R22-163 C3
+  22:
+    - R22-168 C3
+  23:
+    - R22-169 IgG
+    - R22-169 IgM
+    - R22-169 KAPPA
+    - R22-169 LAMBDA
+  24:
+    - R22-170 IgG
+  25:
+    - R22-171 IgG
+  26:
+    - R22-172 IgG
+  27:
+    - R22-177 KAPPA
+    - R22-177 LAMBDA
+  28:
+    - R22-181 C3
+    - R22-181 IgA
+  29:
+    - R22-183 IgA
+  30:
+    - R22-185 C1q
+    - R22-185 IgM
+  31:
+    - R22-189 C1q
+    - R22-189 C3
+    - R22-189 IgG
+    - R22-189 IgM
+  32:
+    - R22-192 IgA
+  33:
+    - R22-193 C3
+  34:
+    - R22-199 IgA
+  35:
+    - R22-200 IgG
+  36:
+    - R22-205 C1q
+    - R22-205 C3
+    - R22-205 IgA
+    - R22-205 IgG
+    - R22-205 IgM
+  37:
+    - R22-210 IgG
+  38:
+    - R23 209_2A1_C3-FITC
+    - R23 209_2A1_IgA-FITC
+    - R23 209_2A1_KAPPA-FITC
+  39:
+    - R23 210_1A1_C1q_IND-FITC
+    - R23 210_1A1_C3_IND-FITC
+    - R23 210_1A1_IgG_IND-FITC
+    - R23 210_1A1_IgM_IND-FITC
+  40:
+    - R23_187_2A1_C3-FITC
+    - R23_187_2A1_IgA-FITC
+  41:
+    - R23_188_2A1_C1q-FITC
+    - R23_188_2A1_C3-FITC
+    - R23_188_2A1_IgA-FITC
+    - R23_188_2A1_IgG-FITC
+    - R23_188_2A1_IgM-FITC
+  41:
+    - R23_192_1A1_IgA_ind-FITC
+  42:
+    - R23_195_2A1_C1q-FITC
+    - R23_195_2A1_C3-FITC
+    - R23_195_2A1_IgA-FITC
+    - R23_195_2A1_IgG-FITC
+    - R23_195_2A1_IgM-FITC
+  43:
+    - R23_199_2A1_C3-FITC
+    - R23_199_2A1_IgA-FITC
+  44:
+    - R23_203_1A1_IgG_IND-FITC
+  45:
+    - R23_206_1A1_C3-FITC
+    - R23_206_1A1_IgG-FITC
+    - R23_206_1A1_KAPPA-FITC
+    - R23_206_1A1_LAMBDA-FITC
+  46:
+    - R23_207_1A1_C1q-FITC
+    - R23_207_1A1_C3-FITC
+    - R23_207_1A1_IgA-FITC
+    - R23_207_1A1_IgG-FITC
+    - R23_207_1A1_IgM-FITC
+  47:
+    - R23_209_2A1_LAMBDA_FITC
+  48:
+    - R23_217_1A1_IgG-FITC
+  49:
+    - R23_219_2A1_C1q-FITC
+    - R23_219_2A1_C3-FITC
+    - R23_219_2A1_IgA-FITC
+    - R23_219_2A1_IgG-FITC
+    - R23_219_2A1_IgM-FITC
+  50:
+    - R23_222_1A1_C1q-FITC
+    - R23_222_1A1_IgG-FITC
+  51:
+    - R23_223_2A1_C1q-FITC
+    - R23_223_2A1_C3-FITC
+    - R23_223_2A1_IgG-FITC
+  52:
+    - R23_224_2A1_IgA-FITC
+  53:
+    - R23_227_1A1_IGG-FITC
+  54:
+    - R23_234_2A1_C3-FITC
+    - R23_234_2A1_IgA-FITC
+  55:
+    - R23_235_2A1_C1q-FITC
+    - R23_235_2A1_C3-FITC
+    - R23_235_2A1_IgA-FITC
+    - R23_235_2A1_IgG-FITC
+    - R23_235_2A1_IgM-FITC
+  56:
+    - R23_236_1A1_C3-FITC
+  57:
+    - R23_240_2A1_IgG-FITC
+  58:
+    - R23_242_2A1_C1q-FITC
+    - R23_242_2A1_C3-FITC
+    - R23_242_2A1_IgM-FITC
+    - R23_242_2A1_KAPPA-FITC
+    - R23_242_2A1_LAMBDA-FITC
+  59:
+    - R23_243_1A1_IGA-FITC
+    - R23_243_1A1_KAPPA-FITC
+    - R23_243_1A1_LAMBDA-FITC
+  60:
+    - R23_246_1A1_C1Q-FITC
+    - R23_246_1A1_C3-FITC
+    - R23_246_1A1_IGG-FITC
+    - R23_246_1A1_KAPPA-FITC
+    - R23_246_1A1_LAMBDA-FITC
+  61:
+    - R23_250_2A1_C3-FITC
+    - R23_250_2A1_IgG-FITC
+  62:
+    - R23_251_2A1_C3-FITC
+    - R23_251_2A1_IGG-FITC
+  63:
+    - R23_255_2A1_C3-FITC
+  64:
+    - R23_262_2A1_C1q-FITC
+    - R23_262_2A1_C3-FITC
+    - R23_262_2A1_IgA-FITC
+    - R23_262_2A1_IgG-FITC
+  65:
+    - R23_267_2A1_IGG-FITC
+  66:
+    - R23_269_1A1_IGG-FITC
+  67:
+    - R23_270_1A1_IGA-FITC
+  68:
+    - R23_272_2A1_C1Q-FITC
+    - R23_272_2A1_C3-FITC
+    - R23_272_2A1_IGA-FITC
+    - R23_272_2A1_IGG-FITC
+    - R23_272_2A1_IGM-FITC
+  69:
+    - R23_273_2A1_IGG-FITC
+  70:
+    - R23_278_2A1_ KAPPA-FITC
+    - R23_278_2A1_LAMBDA-FITC
+  71:
+    - R23_281_2A1_C1q-FITC
+    - R23_281_2A1_C3-FITC
+    - R23_281_2A1_IGG-FITC
+    - R23_281_2A1_IgA-FITC
+    - R23_281_2A1_IgM-FITC
+  72:
+    - R23_284_1A1_IGG-FITC
+  73:
+    - R24_03_1A1_C1Q-FITC
+    - R24_03_1A1_C3-FITC
+    - R24_03_1A1_IGA-FITC
+    - R24_03_1A1_IGG-FITC
+  74:
+    - R24_10_2A1_KAPPA-FITC
+    - R24_10_2A1_LAMBDA-FITC
+  75:
+    - R24_13_2A1_C3-FITC
+  76:
+    - R24_14_2A1_C1q-FITC
+    - R24_14_2A1_C3-FITC
+    - R24_14_2A1_IgA-FITC
+    - R24_14_2A1_IgG-FITC
+    - R24_14_2A1_IgM-FITC
+  77:
+    - R24_15_1A1_KAPPA-FITC
+    - R24_15_1A1_LAMBDA-FITC
+  78:
+    - R24_17_2A1_C3-FITC
+    - R24_17_2A1_IgA-FITC
+  79:
+    - R24_20_1C2_IgA-FITC
+    - R24_20_1C5_C3c-FITC
+  80:
+    - R24_21_2A1_C1q-FITC
+    - R24_21_2A1_C3-FITC
+    - R24_21_2A1_IgA-FITC
+    - R24_21_2A1_IgG-FITC
+  81:
+    - R24_24_1A1_C1q-FITC
+    - R24_24_1A1_IgA-FITC
+    - R24_24_1A1_IgG-FITC
+    - R24_24_1A1_IgM-FITC
+  82:
+    - R24_25_2A1_C3-FITC
+    - R24_25_2A1_IGA-FITC
+    - R24_25_2A1_KAPPA-FITC
+    - R24_25_2A1_LAMBDA-FITC
+  83:
+    - R24_27_2A1_C1q-FITC
+    - R24_27_2A1_IgA-FITC
+    - R24_27_2A1_IgG-FITC
+    - R24_27_2A1_IgM-FITC
+  84:
+    - R24_32_1A1_C1Q-FITC
+  85:
+    - R24_44_2A1_IgG-FITC
+  86:
+    - R24_45_2A1_C1q-FITC
+    - R24_45_2A1_C3-FITC
+    - R24_45_2A1_IgA-FITC
+    - R24_45_2A1_IgG-FITC
+    - R24_45_2A1_IgM-FITC
+  87:
+    - R24_48_2A1_C3-FITC
+    - R24_48_2A1_IgG-FITC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
