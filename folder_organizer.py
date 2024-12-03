@@ -1,58 +1,40 @@
 import os
 import shutil
 import random
-import json
+import yaml
 
-def split_wsi_and_create_folders(SEED, annotazioni_folder, dest_train_annotazioni_folder, dest_train_immagini_folder, dest_val_annotazioni_folder, dest_val_immagini_folder):
+
+def split_wsi_and_create_folders_from_yaml(SEED, yaml_path, train_percentage):
+
+    with open(yaml_path, 'r') as names:
+        data = yaml.safe_load(names)
+
+    all_ids = list(data['WSI'].keys())
     
-    # Creazione delle cartelle di destinazione se non esistono
-    os.makedirs(dest_train_annotazioni_folder, exist_ok=True)
-    os.makedirs(dest_train_immagini_folder, exist_ok=True)
-    os.makedirs(dest_val_annotazioni_folder, exist_ok=True)
-    os.makedirs(dest_val_immagini_folder, exist_ok=True)
-
-    # Ottenere la lista delle annotazioni
     random.seed(SEED)
-    
-    annotazioni_subfolders = sorted(os.listdir(annotazioni_folder))
+    random.shuffle(all_ids)
+    split_idx = train_percentage*(len(all_ids))
+    train_wsi_ids = all_ids[:int(split_idx)]
+    test_wsi_ids = all_ids[int(split_idx):]
 
-    random.shuffle(annotazioni_subfolders)
+    train_wsi = [data['WSI'][id] for id in train_wsi_ids]
+    test_wsi = [data['WSI'][id] for id in test_wsi_ids]    
 
-    # Raccogli i prefissi unici
-    prefissi = set()
+    # Aggiungo l'operazione di flattening per avere una lista e non una lista di liste 
+    flat_train = [item for sublist in train_wsi for item in sublist]
+    flat_test = [item for sublist in test_wsi for item in sublist]
 
-    # Creare un dizionario per raggruppare i prefissi simili
-    for annotazione in annotazioni_subfolders:
-        if annotazione.startswith('R22'):
-            prefisso = annotazione.split(' ')[0]
-            prefissi.add(prefisso)
-        else:
-            annotazione = annotazione.replace(" ", "_")
-            # Prendi le prime tre parti
-            prefisso = '_'.join(annotazione.split('_')[:3])
-            prefissi.add(prefisso)
-            print(prefisso)  # Output: R23_209_2A1
-
-    # Trasformare i prefissi in lista e mescolare
-    prefissi = list(prefissi)
-    random.shuffle(prefissi)
-
-    # Dividere in 70% train e 30% val
-    split_idx = int(0.7 * len(prefissi))
-    train_prefissi = prefissi[:split_idx]
-    val_prefissi = prefissi[split_idx:]
-
-    return train_prefissi, val_prefissi
+    return flat_train, flat_test
 
 # Funzione per copiare annotazioni e immagini
-def copy_files_by_prefisso(annotazioni_folder, prefissi_list, dest_img_folder, dest_annot_folder):
+def copy_files_by_prefisso(annotazioni_folder, wsi_list, dest_img_folder, dest_annot_folder):
 
     # Ottenere la lista delle annotazioni
     annotazioni_subfolders = sorted(os.listdir(annotazioni_folder))
 
-    for prefix in prefissi_list:
+    for wsi in wsi_list:
         for annotazione in annotazioni_subfolders:
-            if prefix in annotazione:
+            if wsi in annotazione:
 
                 path = os.path.join(annotazioni_folder, annotazione)
                 
@@ -84,8 +66,8 @@ def copy_files_by_prefisso(annotazioni_folder, prefissi_list, dest_img_folder, d
                                     print('Ho copiato img : {}'.format(file_img))
                                     break
 
-# Copia i file di train e val basati sui prefissi
-print("Copia completata!")
+    # Copia i file di train e val basati sui prefissi
+    print("Copia completata!")
 
 if __name__ == '__main__':
 
@@ -97,19 +79,20 @@ if __name__ == '__main__':
     dest_train_annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/labels/train'     # Cartella di destinazione per annotazioni di train
     dest_val_immagini_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/images/val'            # Cartella di destinazione per immagini di val
     dest_val_annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/labels/val'  
+    yaml_path = '/work/grana_pbl/Detection_Glomeruli/wsi_file_for_split.yaml'
     SEED = 42       # Cartella di destinazione per annotazioni di val
-    
-    train_prefissi, val_prefissi = split_wsi_and_create_folders(SEED, annotazioni_folder, dest_train_annotazioni_folder, dest_train_immagini_folder, dest_val_annotazioni_folder, dest_val_immagini_folder)
-    print('Train prefissi : ', train_prefissi)
-    print('Test prefissi : ', val_prefissi)
+    train_percentage = 0.7
 
-    split_info_folder = "/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05/info.json"
-    split_info = {
-        'train_ids' : train_prefissi,
-        'test_ids' : val_prefissi,
-    }
-    with open(split_info_folder, 'w') as info:
-        json.dump(split_info, info, indent=4)
-    #copy_files_by_prefisso(annotazioni_folder, train_prefissi, dest_train_immagini_folder, dest_train_annotazioni_folder)
-    #copy_files_by_prefisso(annotazioni_folder, val_prefissi, dest_val_immagini_folder, dest_val_annotazioni_folder)
+    # Creazione delle cartelle di destinazione se non esistono
+    os.makedirs(dest_train_annotazioni_folder, exist_ok=True)
+    os.makedirs(dest_train_immagini_folder, exist_ok=True)
+    os.makedirs(dest_val_annotazioni_folder, exist_ok=True)
+    os.makedirs(dest_val_immagini_folder, exist_ok=True)
+    
+    wsi_train, wsi_test = split_wsi_and_create_folders_from_yaml(SEED, yaml_path, train_percentage)
+    print('Train prefissi : ', sorted(wsi_train))
+    print('Test prefissi : ', sorted(wsi_test))
+
+    #copy_files_by_prefisso(annotazioni_folder, wsi_train, dest_train_immagini_folder, dest_train_annotazioni_folder)
+    #copy_files_by_prefisso(annotazioni_folder, wsi_test, dest_val_immagini_folder, dest_val_annotazioni_folder)
     print('END')
