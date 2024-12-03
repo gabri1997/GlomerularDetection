@@ -12,7 +12,7 @@ import yaml
 from shapely.geometry import Polygon
 import cv2
 
-def merge_bounding_boxes(aggregated_bounding_boxes_path, output_final_complete_aggregated_wsi_path):
+def merge_bounding_boxes(aggregated_bounding_boxes_path, output_final_complete_aggregated_wsi_path, intersection_over_smaller_bounding_box):
 
     """ 
     Se ho già generato tramite YOLO il file JSON 
@@ -46,7 +46,8 @@ def merge_bounding_boxes(aggregated_bounding_boxes_path, output_final_complete_a
                         continue
                     bb2 = bounding_boxes[j]
 
-                    if intersection_area(bb1, bb2) > 0:
+                    # Verifica se l'overlap è superiore al tot %
+                    if calculate_overlap_ratio(bb1, bb2) > intersection_over_smaller_bounding_box:
                         new_bb_coords = unite_bounding_boxes(bb1, bb2)
                         new_bb = {
                             'x_min': int(new_bb_coords[0]),
@@ -77,7 +78,6 @@ def merge_bounding_boxes(aggregated_bounding_boxes_path, output_final_complete_a
         final_boxes[slide_name] = bounding_boxes
 
     #-------------------------------
-    
 
     # Prendo per esempio 'R22-117 C1q'
     with open(output_final_complete_aggregated_wsi_path, 'a') as f:
@@ -107,7 +107,6 @@ def intersection_area(box1, box2):
     x_right = min(x2_1, x2_2)
     y_bottom = min(y2_1, y2_2)
 
-    # Se l'area di intersezione è positiva, calcola l'area
     intersection_width = max(0, x_right - x_left)
     intersection_height = max(0, y_bottom - y_top)
 
@@ -123,10 +122,12 @@ def get_slide_element_at_level(slide, lvl):
             lvl -= 1  # Scendi al livello successivo
         return None  # Nessun livello valido trovato
 
-def remap(wsi_path, wsi_info_file, wsi_level, aggregated_bounding_boxes_path, output_path, ground_truth_path, ground_truth_flag):
+
+    
+def remap(wsi_path, wsi_info_file, wsi_level, aggregated_bounding_boxes_path, output_path, ground_truth_path, ground_truth_flag, area_min_flag,  aspect_ratio_filter_flag, aspect_ratio_filter_value):
 
     """
-    Con questa funzione voglio rimappare il file JSON finale sulla WSI.
+    Con questa funzione voglio rimappare il file JSON finale sulla WSI. E' solo la funzione di stampa delle bounding boxes sulla WSI.
 
     """
     # Prendo per esempio 'R22-117 C1q'
@@ -150,26 +151,11 @@ def remap(wsi_path, wsi_info_file, wsi_level, aggregated_bounding_boxes_path, ou
     
     # TODO FARE IN MODO DI SCORRERE SOLO SULLE IMMAGINI DI TEST PER EVITARE DI SALVARE SOLO SE CI SONO DELLE PREDICTION
     
-    # Salvo l'immagine solo se ho delle predizioni su di essa
-    found_prediction = False
+    # Ciclo per disegnare le bounding box di ground_truth
+    if area_min_flag or ground_truth_flag:
 
-    # Primo ciclo per disegnare le prediciton
-    if slide_name in bb_data:
-        print('Slide name found!')
-        count = 0
-        for bb in bb_data[slide_name]:
-            x_min = int(bb['x_min'])
-            x_max = int(bb['x_max'])
-            y_min = int(bb['y_min'])
-            y_max = int(bb['y_max'])
-            count += 1
-            print('Drawing bb number : {}'.format(count))
-            color = (0, 255, 0)  # Verde
-            thickness = 2
-            cv2.rectangle(region_np, (x_min, y_min), (x_max, y_max), color, thickness)
-            found_prediction = True
-    
-    if ground_truth_flag:
+        area_min = float('inf')
+        gt_count = 0
 
         with open(ground_truth_path, 'r') as gt_file:
             gt_boxes = json.load(gt_file)
@@ -197,45 +183,62 @@ def remap(wsi_path, wsi_info_file, wsi_level, aggregated_bounding_boxes_path, ou
         scale_x = int(lv1_dims[0]) / int(lv0_dims[0])
         scale_y = int(lv1_dims[1]) / int(lv0_dims[1])
 
-        gt_count = 0
         for feature in gt_boxes['features']:
                 coordinates = feature['geometry']['coordinates'][0]
                 x_min_gt = min(c[0] for c in coordinates) * scale_x
-                y_min_gt = min(c[1] for c in coordinates) * scale_x
-                x_max_gt = max(c[0] for c in coordinates) * scale_y
+                y_min_gt = min(c[1] for c in coordinates) * scale_y
+                x_max_gt = max(c[0] for c in coordinates) * scale_x
                 y_max_gt = max(c[1] for c in coordinates) * scale_y
+                area_current_box = (y_max_gt - y_min_gt)*(x_max_gt - x_min_gt)
+                if area_current_box < area_min:
+                    area_min = area_current_box
                 gt_count += 1
                 print('Drawing gt_bb number : {}'.format(gt_count))
                 color = (0, 0, 255)  # Blu
                 thickness = 2
-                cv2.rectangle(region_np, (int(x_min_gt), int(y_min_gt)), (int(x_max_gt), int(y_max_gt)), color, thickness)
+                if ground_truth_flag:
+                    cv2.rectangle(region_np, (int(x_min_gt), int(y_min_gt)), (int(x_max_gt), int(y_max_gt)), color, thickness)
+    
+    # Ciclo per disegnare le prediciton di YOLO
+    if slide_name in bb_data:
         
+        print('Slide name found!')
+        number_of_predicted_bb = 0
+        
+        for bb in bb_data[slide_name]:
+            x_min = int(bb['x_min'])
+            x_max = int(bb['x_max'])
+            y_min = int(bb['y_min'])
+            y_max = int(bb['y_max'])
+            height = y_max - y_min
+            width = x_max - x_min
+
+            # Qui applico uno dei filtri visuali che ho pensato, se la mia bounding_box ha un aspect_ratio strano non la disegno
+            if aspect_ratio_filter_flag:
+                aspect_ratio = max(height, width) / min(height, width)
+                if aspect_ratio > aspect_ratio_filter_value:
+                    print('Questo aspect ratio non va bene, non credo sia un glomerulo!')
+                    continue
+   
+            area_predicted_bb = (height * width)
+
+            # Filtro sull'area minima
+            if not area_min_flag or area_predicted_bb >= area_min:
+                cv2.rectangle(region_np, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
+                print(f'Drawing bb number: { number_of_predicted_bb + 1}')
+            
+            number_of_predicted_bb += 1
+           
     # Dopo aver disegnato le bounding box
     output_file_path = os.path.join(output_path, f"{slide_name}_mapped.jpg")
 
     # Specifica la qualità per il salvataggio
     quality = 70  # Scegli una qualità tra 0 (bassa) e 100 (alta)
 
-    # Salva l'immagine con la qualità specificata
-    if found_prediction:
+    # Salva l'immagine con la qualità specificata SOLO se ho trovato almeno una predizione
+    if number_of_predicted_bb > 0:
         cv2.imwrite(output_file_path, cv2.cvtColor(region_np, cv2.COLOR_RGB2BGR), [cv2.IMWRITE_JPEG_QUALITY, quality])
         print(f"Immagine salvata con qualità ridotta ({quality}%) in: {output_file_path}")
-
-
-    # cv2.imwrite(output_file_path, cv2.cvtColor(region_np, cv2.COLOR_RGB2BGR))
-    # print(f"Immagine salvata (senza ridimensionamento) in: {output_file_path}")
-
-    # Ridimensiona solo se necessario
-    # scale_percent = 100
-    # width = int(region_np.shape[1] * scale_percent / 100)
-    # height = int(region_np.shape[0] * scale_percent / 100)
-    # dim = (width, height)
-    # region_resized = cv2.resize(region_np, dim, interpolation=cv2.INTER_AREA)
-
-    # Salva la versione ridimensionata
-    # output_file_resized = os.path.join(output_path, f"{slide_name}_resized.jpg")
-    # cv2.imwrite(output_file_resized, cv2.cvtColor(region_np, cv2.COLOR_RGB2BGR))
-    # print(f"Immagine salvata (ridimensionata) in: {output_file_resized}")
 
 
 def extract_patch_coordinates(patch_name):
@@ -277,6 +280,29 @@ def convert_bounding_boxes(data_path):
     
     return global_boxes
 
+def calculate_overlap_ratio(box1, box2):
+
+    """
+       Calcoliamoci il rapporto di sovrapposizione rispetto alle aree delle due bounding box, 
+       non so se può andare bene ma proviamo.
+
+    """
+    intersection = intersection_area(box1, box2)
+
+    area_box1 = (box1['x_max'] - box1['x_min']) * (box1['y_max'] - box1['y_min'])
+    area_box2 = (box2['x_max'] - box2['x_min']) * (box2['y_max'] - box2['y_min'])
+    
+    # Rapporto rispetto all'area minima tra le due
+    overlap_ratio = intersection / min(area_box1, area_box2)
+    print('Questo è l\'overlap ratio:', overlap_ratio)
+
+    percorso_tmp = '/work/grana_pbl/Detection_Glomeruli/Files_di_esempio_per_fare_prove/intersection.json'
+    with open(percorso_tmp, 'a') as p_tmp:
+        print('sto scrivendo l\'overlap ratio !')
+        json.dump(overlap_ratio, p_tmp, indent=4)
+    
+    return overlap_ratio
+
 def save_to_json(data, destination_path):
     with open(destination_path, 'w') as f:
         json.dump(data, f, indent=4)
@@ -313,8 +339,8 @@ if __name__ == '__main__':
     mapped_wsi_dest_path = "/work/grana_pbl/Detection_Glomeruli/WSI_bb_final_merged_coordinates.json"
     mapped_boxes_path = "/work/grana_pbl/Detection_Glomeruli/Yolo_results/Yolo_results_Lv1_Overlapping05/global_bounding_boxes.json"
     aggregated_bounding_boxes_path = "/work/grana_pbl/Detection_Glomeruli/Yolo_results/Yolo_results_Lv1_Overlapping05/aggregated_bounding_boxes.json"
-    complete_wsi_boxed_path = "/work/grana_pbl/Detection_Glomeruli/Yolo_results/Yolo_results_Lv1_Overlapping05/final_boxed_complete_wsi_only_predicted"
-    #res = merge(wsi_info_file, mapped_wsi_dest_path, bounding_box_file)
+    complete_wsi_boxed_path = "/work/grana_pbl/Detection_Glomeruli/Yolo_results/Yolo_results_Lv1_Overlapping05/final_boxed_complete_wsi_only_predicted_unified_boxes_with_intersection_threshold"
+    #res = merge_bounding_boxes(wsi_info_file, mapped_wsi_dest_path, bounding_box_file)
     # Converti le bounding box rispetto alla WSI globale
     #global_boxes = convert_bounding_boxes(bounding_box_file)
     #final_bounding_boxes_wsi_file = aggregate_bounding_boxes(mapped_boxes_path, aggregated_bounding_boxes_path)
@@ -323,22 +349,84 @@ if __name__ == '__main__':
     # with open(mapped_boxes_path, "w") as f:
     #     json.dump(global_boxes, f, indent=4)
 
+
     # TODO
+    # FRAE UN FILE DI CONFIGURAZIONE PER METTERE TUTTI I PERCORSI DENTRO UN UNICO FILE SEPARATO
     # METTERE A POSTO IL FILE INFO FILE, LA STORIA DELLE ESTENSIONI
     # GENERARE UNA CATENA DI JSON PIU' BREVE, PERCHE' PER ORA PRIMA LI TRASFORMO DA YOLO IN GLOBALE, POI AGGREGO I PATCHES E LI UNISCO PER WSI, POI INTERSECO
-    # METTERE A POSTO LA SOGLIA DI INTERSEZIONE
-    # GENERALE SOLO SE HO UNA PREDIZIONE
+    # METTERE A POSTO LA SOGLIA DI INTERSEZIONE - Done
+    # GENERALE SOLO SE HO UNA PREDIZIONE, QUESTO NON VA BENE, DEVO LAVORARE SOLO CON LE WSI DI TEST, DI CUI PERO' DEVO TENERE TRACCIA
+    
+    # METTERE A POSTO L'AGGREGAZIONE FACENDO IN MODO CHE: 
+    # POST-PROCESSING
+    # Per ridurre i falsi positivi
+    # 1. LE BOUNDING BOX TROPPO PICCOLE NON VENGANO CONSIDERATE 
+    # 2. NON CONSIDERARE QUELLE CHE HANNO MENO DI 2 DETECTION
+    # 3. FILTRAGGIO BASATO SULLA FORMA DELLA BOUNDING BOX - Done
 
-    # Prova
+
+    # wsi_level = 1
+    # wsi_path = '/work/grana_pbl/Detection_Glomeruli/HAMAMATSU'
+    # output_final_complete_aggregated_wsi_path = '/work/grana_pbl/Detection_Glomeruli/Yolo_results/Yolo_results_Lv1_Overlapping05/final_boxed_complete_wsi_only_predicted_unified_boxes_with_intersection_threshold/mapping_finale.json'
+    # ground_truth_path = '/work/grana_pbl/Detection_Glomeruli/Coordinate_HAMAMATSU'
+    # # This flag is setted 'True' if you want to draw ground_truth to WSI.
+    # ground_truth_flag = True
+    # aspect_ratio_filter_flag = True
+    # intersection_over_smaller_bounding_box = 0.3
+    # aspect_ratio_filter_value = 2
+    # #merge_bounding_boxes(aggregated_bounding_boxes_path, output_final_complete_aggregated_wsi_path)
+    
+    # # Ottieni i file di WSI e ground truth come dizionari basati sul nome base
+    # wsi_files = {os.path.splitext(f)[0]: os.path.join(wsi_path, f) for f in os.listdir(wsi_path)}
+    # gt_files = {os.path.splitext(f)[0]: os.path.join(ground_truth_path, f) for f in os.listdir(ground_truth_path)}
+
+    # common_keys = set(wsi_files.keys()) & set(gt_files.keys())
+
+    # if not common_keys:
+    #     raise ValueError("Nessuna corrispondenza trovata tra WSI e ground truth!")
+
+    # for key in common_keys:
+    #     current_wsi_path = wsi_files[key]
+    #     current_gt_path = gt_files[key]
+        
+    #     print(f"Processando WSI: {current_wsi_path} con GT: {current_gt_path}")
+
+    #     remap(
+    #         current_wsi_path,
+    #         wsi_info_file,
+    #         wsi_level,
+    #         output_final_complete_aggregated_wsi_path,
+    #         complete_wsi_boxed_path,
+    #         current_gt_path,
+    #         ground_truth_flag,
+    #         aspect_ratio_filter_flag,
+    #         aspect_ratio_filter_value,
+    #         intersection_over_smaller_bounding_box
+    #     )
+    # print('END !!!!!')
+    #----------------------------
+
+    # Prova con una sola WSI che ho scelto
+    wsi_path = '/work/grana_pbl/Detection_Glomeruli/Files_di_esempio_per_fare_prove/WSI_PATH'
+    ground_truth_path = '/work/grana_pbl/Detection_Glomeruli/Files_di_esempio_per_fare_prove/COORDINATE'
+    aggregated_bb_path = '/work/grana_pbl/Detection_Glomeruli/Files_di_esempio_per_fare_prove/mapping_aggregato.json'
+    prova_wsi_test_path = '/work/grana_pbl/Detection_Glomeruli/Files_di_esempio_per_fare_prove/COMPLETE_WSI_BOXED_PATH'
+    output_final_complete_aggregated_wsi_path = '/work/grana_pbl/Detection_Glomeruli/Files_di_esempio_per_fare_prove/mapping_finale.json'
+
+    # Choose wsi-zoom-level
     wsi_level = 1
-    wsi_path = '/work/grana_pbl/Detection_Glomeruli/HAMAMATSU'
-    output_final_complete_aggregated_wsi_path = '/work/grana_pbl/Detection_Glomeruli/Yolo_results/Yolo_results_Lv1_Overlapping05/final_boxed_complete_wsi_only_predicted/mapping_finale.json'
-    ground_truth_path = '/work/grana_pbl/Detection_Glomeruli/Coordinate_HAMAMATSU'
     # This flag is setted 'True' if you want to draw ground_truth to WSI.
     ground_truth_flag = True
-    #merge_bounding_boxes(aggregated_bounding_boxes_path, output_final_complete_aggregated_wsi_path)
+    # Do you want to filter respect aspect ratio ?
+    aspect_ratio_filter_flag = True
+    # Set the value of the aspect ratio filter
+    aspect_ratio_filter_value = 2
+    # Set the falg True if you want to apply the filter over the area (if the predicted bb area is bigger than the minimum gt_bounding_box area)
+    area_min_flag = True
+    intersection_over_smaller_bounding_box = 0.3
+    # merge_bounding_boxes(aggregated_bb_path, output_final_complete_aggregated_wsi_path, intersection_over_smaller_bounding_box)
     
-    # Ottieni i file di WSI e ground truth come dizionari basati sul nome base
+    # # Ottieni i file di WSI e ground truth come dizionari basati sul nome base
     wsi_files = {os.path.splitext(f)[0]: os.path.join(wsi_path, f) for f in os.listdir(wsi_path)}
     gt_files = {os.path.splitext(f)[0]: os.path.join(ground_truth_path, f) for f in os.listdir(ground_truth_path)}
 
@@ -358,8 +446,12 @@ if __name__ == '__main__':
             wsi_info_file,
             wsi_level,
             output_final_complete_aggregated_wsi_path,
-            complete_wsi_boxed_path,
+            prova_wsi_test_path,
             current_gt_path,
-            ground_truth_flag
+            ground_truth_flag,
+            area_min_flag,
+            aspect_ratio_filter_flag,
+            aspect_ratio_filter_value,
         )
+
     print('END !!!!!')
