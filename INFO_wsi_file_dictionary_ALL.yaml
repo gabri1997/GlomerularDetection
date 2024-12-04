@@ -1,0 +1,2590 @@
+{
+  "R22-104 C3.svs": {
+    "Name": "R22-104 C3",
+    "Slide_LV0_dims": [
+      36864,
+      106496
+    ],
+    "Slide_LV1_dims": [
+      9216,
+      26624
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-104 IgG.svs": {
+    "Name": "R22-104 IgG",
+    "Slide_LV0_dims": [
+      24576,
+      106496
+    ],
+    "Slide_LV1_dims": [
+      6144,
+      26624
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-106 IgG.svs": {
+    "Name": "R22-106 IgG",
+    "Slide_LV0_dims": [
+      40960,
+      53248
+    ],
+    "Slide_LV1_dims": [
+      10240,
+      13312
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-107 IgA.svs": {
+    "Name": "R22-107 IgA",
+    "Slide_LV0_dims": [
+      32768,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      8192,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-117 C1q.svs": {
+    "Name": "R22-117 C1q",
+    "Slide_LV0_dims": [
+      28672,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-117 C3.svs": {
+    "Name": "R22-117 C3",
+    "Slide_LV0_dims": [
+      28672,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-117 IgG.svs": {
+    "Name": "R22-117 IgG",
+    "Slide_LV0_dims": [
+      32768,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      8192,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-119 IgG.svs": {
+    "Name": "R22-119 IgG",
+    "Slide_LV0_dims": [
+      81920,
+      61440
+    ],
+    "Slide_LV1_dims": [
+      20480,
+      15360
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-131 C3.svs": {
+    "Name": "R22-131 C3",
+    "Slide_LV0_dims": [
+      53248,
+      61440
+    ],
+    "Slide_LV1_dims": [
+      13312,
+      15360
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-131 IgG.svs": {
+    "Name": "R22-131 IgG",
+    "Slide_LV0_dims": [
+      61440,
+      61440
+    ],
+    "Slide_LV1_dims": [
+      15360,
+      15360
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-132 IgG.svs": {
+    "Name": "R22-132 IgG",
+    "Slide_LV0_dims": [
+      49152,
+      36864
+    ],
+    "Slide_LV1_dims": [
+      12288,
+      9216
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-135 C3.svs": {
+    "Name": "R22-135 C3",
+    "Slide_LV0_dims": [
+      45056,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      11264,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-141 KAPPA.svs": {
+    "Name": "R22-141 KAPPA",
+    "Slide_LV0_dims": [
+      69632,
+      49152
+    ],
+    "Slide_LV1_dims": [
+      17408,
+      12288
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-141 lambda.svs": {
+    "Name": "R22-141 lambda",
+    "Slide_LV0_dims": [
+      69632,
+      61440
+    ],
+    "Slide_LV1_dims": [
+      17408,
+      15360
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-142 C1q.svs": {
+    "Name": "R22-142 C1q",
+    "Slide_LV0_dims": [
+      40960,
+      102400
+    ],
+    "Slide_LV1_dims": [
+      10240,
+      25600
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-142 IgG.svs": {
+    "Name": "R22-142 IgG",
+    "Slide_LV0_dims": [
+      57344,
+      94208
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      23552
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-143 IgA.svs": {
+    "Name": "R22-143 IgA",
+    "Slide_LV0_dims": [
+      61440,
+      45056
+    ],
+    "Slide_LV1_dims": [
+      15360,
+      11264
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-151 IGA.svs": {
+    "Name": "R22-151 IGA",
+    "Slide_LV0_dims": [
+      53248,
+      53248
+    ],
+    "Slide_LV1_dims": [
+      13312,
+      13312
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-152 IGA.svs": {
+    "Name": "R22-152 IGA",
+    "Slide_LV0_dims": [
+      61440,
+      81920
+    ],
+    "Slide_LV1_dims": [
+      15360,
+      20480
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-154 KAPPA.svs": {
+    "Name": "R22-154 KAPPA",
+    "Slide_LV0_dims": [
+      53248,
+      102400
+    ],
+    "Slide_LV1_dims": [
+      13312,
+      25600
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-154 LAMBDA.svs": {
+    "Name": "R22-154 LAMBDA",
+    "Slide_LV0_dims": [
+      53248,
+      98304
+    ],
+    "Slide_LV1_dims": [
+      13312,
+      24576
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-157 C3.svs": {
+    "Name": "R22-157 C3",
+    "Slide_LV0_dims": [
+      40960,
+      36864
+    ],
+    "Slide_LV1_dims": [
+      10240,
+      9216
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-157 IgA.svs": {
+    "Name": "R22-157 IgA",
+    "Slide_LV0_dims": [
+      36864,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      9216,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-162 IgA.svs": {
+    "Name": "R22-162 IgA",
+    "Slide_LV0_dims": [
+      36864,
+      24576
+    ],
+    "Slide_LV1_dims": [
+      9216,
+      6144
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-163 C3.svs": {
+    "Name": "R22-163 C3",
+    "Slide_LV0_dims": [
+      36864,
+      36864
+    ],
+    "Slide_LV1_dims": [
+      9216,
+      9216
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-168 C3.svs": {
+    "Name": "R22-168 C3",
+    "Slide_LV0_dims": [
+      40960,
+      32768
+    ],
+    "Slide_LV1_dims": [
+      10240,
+      8192
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-169 IgG.svs": {
+    "Name": "R22-169 IgG",
+    "Slide_LV0_dims": [
+      28672,
+      122880
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      30720
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-169 IgM.svs": {
+    "Name": "R22-169 IgM",
+    "Slide_LV0_dims": [
+      32768,
+      122880
+    ],
+    "Slide_LV1_dims": [
+      8192,
+      30720
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-169 KAPPA.svs": {
+    "Name": "R22-169 KAPPA",
+    "Slide_LV0_dims": [
+      81920,
+      90112
+    ],
+    "Slide_LV1_dims": [
+      20480,
+      22528
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-169 LAMBDA.svs": {
+    "Name": "R22-169 LAMBDA",
+    "Slide_LV0_dims": [
+      77824,
+      90112
+    ],
+    "Slide_LV1_dims": [
+      19456,
+      22528
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-170 IgG.svs": {
+    "Name": "R22-170 IgG",
+    "Slide_LV0_dims": [
+      28672,
+      24576
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      6144
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-171 IgG.svs": {
+    "Name": "R22-171 IgG",
+    "Slide_LV0_dims": [
+      73728,
+      32768
+    ],
+    "Slide_LV1_dims": [
+      18432,
+      8192
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-172 IgG.svs": {
+    "Name": "R22-172 IgG",
+    "Slide_LV0_dims": [
+      98304,
+      69632
+    ],
+    "Slide_LV1_dims": [
+      24576,
+      17408
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-177 KAPPA.svs": {
+    "Name": "R22-177 KAPPA",
+    "Slide_LV0_dims": [
+      45056,
+      61440
+    ],
+    "Slide_LV1_dims": [
+      11264,
+      15360
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-177 LAMBDA.svs": {
+    "Name": "R22-177 LAMBDA",
+    "Slide_LV0_dims": [
+      65536,
+      32768
+    ],
+    "Slide_LV1_dims": [
+      16384,
+      8192
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-181 C3.svs": {
+    "Name": "R22-181 C3",
+    "Slide_LV0_dims": [
+      69632,
+      36864
+    ],
+    "Slide_LV1_dims": [
+      17408,
+      9216
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-181 IgA.svs": {
+    "Name": "R22-181 IgA",
+    "Slide_LV0_dims": [
+      61440,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      15360,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-183 IgA.svs": {
+    "Name": "R22-183 IgA",
+    "Slide_LV0_dims": [
+      61440,
+      57344
+    ],
+    "Slide_LV1_dims": [
+      15360,
+      14336
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-185 C1q.svs": {
+    "Name": "R22-185 C1q",
+    "Slide_LV0_dims": [
+      24576,
+      45056
+    ],
+    "Slide_LV1_dims": [
+      6144,
+      11264
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-185 IgM.svs": {
+    "Name": "R22-185 IgM",
+    "Slide_LV0_dims": [
+      32768,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      8192,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-189 C1q.svs": {
+    "Name": "R22-189 C1q",
+    "Slide_LV0_dims": [
+      45056,
+      45056
+    ],
+    "Slide_LV1_dims": [
+      11264,
+      11264
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-189 C3.svs": {
+    "Name": "R22-189 C3",
+    "Slide_LV0_dims": [
+      36864,
+      36864
+    ],
+    "Slide_LV1_dims": [
+      9216,
+      9216
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-189 IgG.svs": {
+    "Name": "R22-189 IgG",
+    "Slide_LV0_dims": [
+      40960,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      10240,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-189 IgM.svs": {
+    "Name": "R22-189 IgM",
+    "Slide_LV0_dims": [
+      49152,
+      36864
+    ],
+    "Slide_LV1_dims": [
+      12288,
+      9216
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-192 IgA.svs": {
+    "Name": "R22-192 IgA",
+    "Slide_LV0_dims": [
+      53248,
+      24576
+    ],
+    "Slide_LV1_dims": [
+      13312,
+      6144
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-193 C3.svs": {
+    "Name": "R22-193 C3",
+    "Slide_LV0_dims": [
+      28672,
+      28672
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      7168
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-199 IgA.svs": {
+    "Name": "R22-199 IgA",
+    "Slide_LV0_dims": [
+      24576,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      6144,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-200 IgG.svs": {
+    "Name": "R22-200 IgG",
+    "Slide_LV0_dims": [
+      20480,
+      32768
+    ],
+    "Slide_LV1_dims": [
+      5120,
+      8192
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-205 C1q.svs": {
+    "Name": "R22-205 C1q",
+    "Slide_LV0_dims": [
+      28672,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-205 C3.svs": {
+    "Name": "R22-205 C3",
+    "Slide_LV0_dims": [
+      28672,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-205 IgA.svs": {
+    "Name": "R22-205 IgA",
+    "Slide_LV0_dims": [
+      28672,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-205 IgG.svs": {
+    "Name": "R22-205 IgG",
+    "Slide_LV0_dims": [
+      28672,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-205 IgM.svs": {
+    "Name": "R22-205 IgM",
+    "Slide_LV0_dims": [
+      32768,
+      32768
+    ],
+    "Slide_LV1_dims": [
+      8192,
+      8192
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-210 IgG.svs": {
+    "Name": "R22-210 IgG",
+    "Slide_LV0_dims": [
+      40960,
+      40960
+    ],
+    "Slide_LV1_dims": [
+      10240,
+      10240
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-90 C3.svs": {
+    "Name": "R22-90 C3",
+    "Slide_LV0_dims": [
+      57344,
+      65536
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      16384
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-90 IgG.svs": {
+    "Name": "R22-90 IgG",
+    "Slide_LV0_dims": [
+      57344,
+      81920
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      20480
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-93 IgA.svs": {
+    "Name": "R22-93 IgA",
+    "Slide_LV0_dims": [
+      98304,
+      16384
+    ],
+    "Slide_LV1_dims": [
+      24576,
+      4096
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-94 C3.svs": {
+    "Name": "R22-94 C3",
+    "Slide_LV0_dims": [
+      20480,
+      32768
+    ],
+    "Slide_LV1_dims": [
+      5120,
+      8192
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-94 IgG.svs": {
+    "Name": "R22-94 IgG",
+    "Slide_LV0_dims": [
+      28672,
+      28672
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      7168
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-98 IgG.svs": {
+    "Name": "R22-98 IgG",
+    "Slide_LV0_dims": [
+      49152,
+      36864
+    ],
+    "Slide_LV1_dims": [
+      12288,
+      9216
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-98 kappa.svs": {
+    "Name": "R22-98 kappa",
+    "Slide_LV0_dims": [
+      40960,
+      28672
+    ],
+    "Slide_LV1_dims": [
+      10240,
+      7168
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R22-98 lambda.svs": {
+    "Name": "R22-98 lambda",
+    "Slide_LV0_dims": [
+      32768,
+      45056
+    ],
+    "Slide_LV1_dims": [
+      8192,
+      11264
+    ],
+    "Micron_per_pixel_x_LV0": 0.1725,
+    "Micron_per_pixel_x_LV1": 0.69
+  },
+  "R23 209_2A1_C3-FITC.ndpi": {
+    "Name": "R23 209_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      10752,
+      16128
+    ],
+    "Slide_LV1_dims": [
+      5376,
+      8064
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23 209_2A1_IgA-FITC.ndpi": {
+    "Name": "R23 209_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      48384,
+      24192
+    ],
+    "Slide_LV1_dims": [
+      24192,
+      12096
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23 209_2A1_KAPPA-FITC.ndpi": {
+    "Name": "R23 209_2A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      43008,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      21504,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23 210_1A1_C1q_IND-FITC.ndpi": {
+    "Name": "R23 210_1A1_C1q_IND-FITC",
+    "Slide_LV0_dims": [
+      8960,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      4480,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23 210_1A1_C3_IND-FITC.ndpi": {
+    "Name": "R23 210_1A1_C3_IND-FITC",
+    "Slide_LV0_dims": [
+      12544,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      6272,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23 210_1A1_IgG_IND-FITC.ndpi": {
+    "Name": "R23 210_1A1_IgG_IND-FITC",
+    "Slide_LV0_dims": [
+      10752,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      5376,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23 210_1A1_IgM_IND-FITC.ndpi": {
+    "Name": "R23 210_1A1_IgM_IND-FITC",
+    "Slide_LV0_dims": [
+      10752,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      5376,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_187_2A1_C3-FITC.ndpi": {
+    "Name": "R23_187_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      12544,
+      8064
+    ],
+    "Slide_LV1_dims": [
+      6272,
+      4032
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_187_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_187_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      12544,
+      8064
+    ],
+    "Slide_LV1_dims": [
+      6272,
+      4032
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_188_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_188_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      23296,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      11648,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_188_2A1_C3-FITC.ndpi": {
+    "Name": "R23_188_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      51968,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      25984,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_188_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_188_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      53760,
+      24192
+    ],
+    "Slide_LV1_dims": [
+      26880,
+      12096
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_188_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_188_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      55552,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      27776,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_188_2A1_IgM-FITC.ndpi": {
+    "Name": "R23_188_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      17920,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      8960,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_192_1A1_IgA_ind-FITC.ndpi": {
+    "Name": "R23_192_1A1_IgA_ind-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      34944
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      17472
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_195_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_195_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      10752,
+      8064
+    ],
+    "Slide_LV1_dims": [
+      5376,
+      4032
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_195_2A1_C3-FITC.ndpi": {
+    "Name": "R23_195_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      26880,
+      8064
+    ],
+    "Slide_LV1_dims": [
+      13440,
+      4032
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_195_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_195_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      10752,
+      8064
+    ],
+    "Slide_LV1_dims": [
+      5376,
+      4032
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_195_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_195_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      32256,
+      8064
+    ],
+    "Slide_LV1_dims": [
+      16128,
+      4032
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_195_2A1_IgM-FITC.ndpi": {
+    "Name": "R23_195_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      10752,
+      5376
+    ],
+    "Slide_LV1_dims": [
+      5376,
+      2688
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_199_2A1_C3-FITC.ndpi": {
+    "Name": "R23_199_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      44800,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      22400,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_199_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_199_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      14336,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_203_1A1_IgG_IND-FITC.ndpi": {
+    "Name": "R23_203_1A1_IgG_IND-FITC",
+    "Slide_LV0_dims": [
+      23296,
+      10752
+    ],
+    "Slide_LV1_dims": [
+      11648,
+      5376
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_206_1A1_C3-FITC.ndpi": {
+    "Name": "R23_206_1A1_C3-FITC",
+    "Slide_LV0_dims": [
+      68096,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      34048,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_206_1A1_IgG-FITC.ndpi": {
+    "Name": "R23_206_1A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      64512,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      32256,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_206_1A1_KAPPA-FITC.ndpi": {
+    "Name": "R23_206_1A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      64512,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      32256,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_206_1A1_LAMBDA-FITC.ndpi": {
+    "Name": "R23_206_1A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      64512,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      32256,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_207_1A1_C1q-FITC.ndpi": {
+    "Name": "R23_207_1A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      43008,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      21504,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_207_1A1_C3-FITC.ndpi": {
+    "Name": "R23_207_1A1_C3-FITC",
+    "Slide_LV0_dims": [
+      60928,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      30464,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_207_1A1_IgA-FITC.ndpi": {
+    "Name": "R23_207_1A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      43008,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      21504,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_207_1A1_IgG-FITC.ndpi": {
+    "Name": "R23_207_1A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      43008,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      21504,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_207_1A1_IgM-FITC.ndpi": {
+    "Name": "R23_207_1A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      35840,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      17920,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_209_2A1_LAMBDA_FITC.ndpi": {
+    "Name": "R23_209_2A1_LAMBDA_FITC",
+    "Slide_LV0_dims": [
+      12544,
+      16128
+    ],
+    "Slide_LV1_dims": [
+      6272,
+      8064
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_217_1A1_IgG-FITC.ndpi": {
+    "Name": "R23_217_1A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      53760,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      26880,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_219_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_219_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      46592,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      23296,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_219_2A1_C3-FITC.ndpi": {
+    "Name": "R23_219_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      43008,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      21504,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_219_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_219_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      46592,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      23296,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_219_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_219_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      68096,
+      64512
+    ],
+    "Slide_LV1_dims": [
+      34048,
+      32256
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_219_2A1_IgM-FITC.ndpi": {
+    "Name": "R23_219_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      50176,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      25088,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_222_1A1_C1q-FITC.ndpi": {
+    "Name": "R23_222_1A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      46592,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      23296,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_222_1A1_IgG-FITC.ndpi": {
+    "Name": "R23_222_1A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      129024,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      64512,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_223_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_223_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      121856,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      60928,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_223_2A1_C3-FITC.ndpi": {
+    "Name": "R23_223_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_223_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_223_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      154112,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      77056,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_224_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_224_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      82432,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      41216,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_227_1A1_IGG-FITC.ndpi": {
+    "Name": "R23_227_1A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      64512
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      32256
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_234_2A1_C3-FITC.ndpi": {
+    "Name": "R23_234_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_234_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_234_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      82432,
+      102144
+    ],
+    "Slide_LV1_dims": [
+      41216,
+      51072
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_235_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_235_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      75264,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      37632,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_235_2A1_C3-FITC.ndpi": {
+    "Name": "R23_235_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      39424,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      19712,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_235_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_235_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      100352,
+      59136
+    ],
+    "Slide_LV1_dims": [
+      50176,
+      29568
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_235_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_235_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      107520,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      53760,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_235_2A1_IgM-FITC.ndpi": {
+    "Name": "R23_235_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      96768,
+      59136
+    ],
+    "Slide_LV1_dims": [
+      48384,
+      29568
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_236_1A1_C3-FITC.ndpi": {
+    "Name": "R23_236_1A1_C3-FITC",
+    "Slide_LV0_dims": [
+      53760,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      26880,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_240_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_240_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      86016,
+      69888
+    ],
+    "Slide_LV1_dims": [
+      43008,
+      34944
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_242_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_242_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_242_2A1_C3-FITC.ndpi": {
+    "Name": "R23_242_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_242_2A1_IgM-FITC.ndpi": {
+    "Name": "R23_242_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_242_2A1_KAPPA-FITC.ndpi": {
+    "Name": "R23_242_2A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      96768,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      48384,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_242_2A1_LAMBDA-FITC.ndpi": {
+    "Name": "R23_242_2A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      103936,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      51968,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_243_1A1_IGA-FITC.ndpi": {
+    "Name": "R23_243_1A1_IGA-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_243_1A1_KAPPA-FITC.ndpi": {
+    "Name": "R23_243_1A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      16128
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      8064
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_243_1A1_LAMBDA-FITC.ndpi": {
+    "Name": "R23_243_1A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_246_1A1_C1Q-FITC.ndpi": {
+    "Name": "R23_246_1A1_C1Q-FITC",
+    "Slide_LV0_dims": [
+      57344,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      28672,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_246_1A1_C3-FITC.ndpi": {
+    "Name": "R23_246_1A1_C3-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      64512
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      32256
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_246_1A1_IGG-FITC.ndpi": {
+    "Name": "R23_246_1A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      60928,
+      59136
+    ],
+    "Slide_LV1_dims": [
+      30464,
+      29568
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_246_1A1_KAPPA-FITC.ndpi": {
+    "Name": "R23_246_1A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      64512,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      32256,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_246_1A1_LAMBDA-FITC.ndpi": {
+    "Name": "R23_246_1A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      60928,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      30464,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_250_2A1_C3-FITC.ndpi": {
+    "Name": "R23_250_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      46592,
+      59136
+    ],
+    "Slide_LV1_dims": [
+      23296,
+      29568
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_250_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_250_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      35840,
+      86016
+    ],
+    "Slide_LV1_dims": [
+      17920,
+      43008
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_251_2A1_C3-FITC.ndpi": {
+    "Name": "R23_251_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_251_2A1_IGG-FITC.ndpi": {
+    "Name": "R23_251_2A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_255_2A1_C3-FITC.ndpi": {
+    "Name": "R23_255_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      111104,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      55552,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_262_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_262_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      44800,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      22400,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_262_2A1_C3-FITC.ndpi": {
+    "Name": "R23_262_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      30464,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      15232,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_262_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_262_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      34048,
+      16128
+    ],
+    "Slide_LV1_dims": [
+      17024,
+      8064
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_262_2A1_IgG-FITC.ndpi": {
+    "Name": "R23_262_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      39424,
+      18816
+    ],
+    "Slide_LV1_dims": [
+      19712,
+      9408
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_267_2A1_IGG-FITC.ndpi": {
+    "Name": "R23_267_2A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      68096,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      34048,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_269_1A1_IGG-FITC.ndpi": {
+    "Name": "R23_269_1A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      71680,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      35840,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_270_1A1_IGA-FITC.ndpi": {
+    "Name": "R23_270_1A1_IGA-FITC",
+    "Slide_LV0_dims": [
+      32256,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      16128,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_272_2A1_C1Q-FITC.ndpi": {
+    "Name": "R23_272_2A1_C1Q-FITC",
+    "Slide_LV0_dims": [
+      41216,
+      18816
+    ],
+    "Slide_LV1_dims": [
+      20608,
+      9408
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_272_2A1_C3-FITC.ndpi": {
+    "Name": "R23_272_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      41216,
+      18816
+    ],
+    "Slide_LV1_dims": [
+      20608,
+      9408
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_272_2A1_IGA-FITC.ndpi": {
+    "Name": "R23_272_2A1_IGA-FITC",
+    "Slide_LV0_dims": [
+      35840,
+      16128
+    ],
+    "Slide_LV1_dims": [
+      17920,
+      8064
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_272_2A1_IGG-FITC.ndpi": {
+    "Name": "R23_272_2A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      34048,
+      16128
+    ],
+    "Slide_LV1_dims": [
+      17024,
+      8064
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_272_2A1_IGM-FITC.ndpi": {
+    "Name": "R23_272_2A1_IGM-FITC",
+    "Slide_LV0_dims": [
+      39424,
+      13440
+    ],
+    "Slide_LV1_dims": [
+      19712,
+      6720
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_273_2A1_IGG-FITC.ndpi": {
+    "Name": "R23_273_2A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      12544,
+      18816
+    ],
+    "Slide_LV1_dims": [
+      6272,
+      9408
+    ],
+    "Micron_per_pixel_x_LV0": 0.44152059693584705,
+    "Micron_per_pixel_x_LV1": 0.8830411938716941
+  },
+  "R23_278_2A1_ KAPPA-FITC.ndpi": {
+    "Name": "R23_278_2A1_ KAPPA-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_278_2A1_LAMBDA-FITC.ndpi": {
+    "Name": "R23_278_2A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      118272,
+      64512
+    ],
+    "Slide_LV1_dims": [
+      59136,
+      32256
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_281_2A1_C1q-FITC.ndpi": {
+    "Name": "R23_281_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      96768,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      48384,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_281_2A1_C3-FITC.ndpi": {
+    "Name": "R23_281_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      111104,
+      64512
+    ],
+    "Slide_LV1_dims": [
+      55552,
+      32256
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_281_2A1_IGG-FITC.ndpi": {
+    "Name": "R23_281_2A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      32256,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      16128,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_281_2A1_IgA-FITC.ndpi": {
+    "Name": "R23_281_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      132608,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      66304,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_281_2A1_IgM-FITC.ndpi": {
+    "Name": "R23_281_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      100352,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      50176,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R23_284_1A1_IGG-FITC.ndpi": {
+    "Name": "R23_284_1A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_03_1A1_C1Q-FITC.ndpi": {
+    "Name": "R24_03_1A1_C1Q-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_03_1A1_C3-FITC.ndpi": {
+    "Name": "R24_03_1A1_C3-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_03_1A1_IGA-FITC.ndpi": {
+    "Name": "R24_03_1A1_IGA-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_03_1A1_IGG-FITC.ndpi": {
+    "Name": "R24_03_1A1_IGG-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_10_2A1_KAPPA-FITC.ndpi": {
+    "Name": "R24_10_2A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_10_2A1_LAMBDA-FITC.ndpi": {
+    "Name": "R24_10_2A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      39424,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      19712,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_13_2A1_C3-FITC.ndpi": {
+    "Name": "R24_13_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      114688,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      57344,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_14_2A1_C1q-FITC.ndpi": {
+    "Name": "R24_14_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      78848,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      39424,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_14_2A1_C3-FITC.ndpi": {
+    "Name": "R24_14_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      89600,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      44800,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_14_2A1_IgA-FITC.ndpi": {
+    "Name": "R24_14_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      71680,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      35840,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_14_2A1_IgG-FITC.ndpi": {
+    "Name": "R24_14_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      82432,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      41216,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_14_2A1_IgM-FITC.ndpi": {
+    "Name": "R24_14_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      57344,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      28672,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_15_1A1_KAPPA-FITC.ndpi": {
+    "Name": "R24_15_1A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      46592,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      23296,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_15_1A1_LAMBDA-FITC.ndpi": {
+    "Name": "R24_15_1A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      46592,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      23296,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_17_2A1_C3-FITC.ndpi": {
+    "Name": "R24_17_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      96768,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      48384,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_17_2A1_IgA-FITC.ndpi": {
+    "Name": "R24_17_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      89600,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      44800,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_20_1C2_IgA-FITC.ndpi": {
+    "Name": "R24_20_1C2_IgA-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_20_1C5_C3c-FITC.ndpi": {
+    "Name": "R24_20_1C5_C3c-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_21_2A1_C1q-FITC.ndpi": {
+    "Name": "R24_21_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_21_2A1_C3-FITC.ndpi": {
+    "Name": "R24_21_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      17920,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      8960,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_21_2A1_IgA-FITC.ndpi": {
+    "Name": "R24_21_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      60928,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      30464,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_21_2A1_IgG-FITC.ndpi": {
+    "Name": "R24_21_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      68096,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      34048,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_24_1A1_C1q-FITC.ndpi": {
+    "Name": "R24_24_1A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      68096,
+      64512
+    ],
+    "Slide_LV1_dims": [
+      34048,
+      32256
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_24_1A1_IgA-FITC.ndpi": {
+    "Name": "R24_24_1A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      57344,
+      59136
+    ],
+    "Slide_LV1_dims": [
+      28672,
+      29568
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_24_1A1_IgG-FITC.ndpi": {
+    "Name": "R24_24_1A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      64512,
+      53760
+    ],
+    "Slide_LV1_dims": [
+      32256,
+      26880
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_24_1A1_IgM-FITC.ndpi": {
+    "Name": "R24_24_1A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      60928,
+      64512
+    ],
+    "Slide_LV1_dims": [
+      30464,
+      32256
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_25_2A1_C3-FITC.ndpi": {
+    "Name": "R24_25_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      71680,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      35840,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_25_2A1_IGA-FITC.ndpi": {
+    "Name": "R24_25_2A1_IGA-FITC",
+    "Slide_LV0_dims": [
+      21504,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      10752,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_25_2A1_KAPPA-FITC.ndpi": {
+    "Name": "R24_25_2A1_KAPPA-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_25_2A1_LAMBDA-FITC.ndpi": {
+    "Name": "R24_25_2A1_LAMBDA-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_27_2A1_C1q-FITC.ndpi": {
+    "Name": "R24_27_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      25088,
+      26880
+    ],
+    "Slide_LV1_dims": [
+      12544,
+      13440
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_27_2A1_IgA-FITC.ndpi": {
+    "Name": "R24_27_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_27_2A1_IgG-FITC.ndpi": {
+    "Name": "R24_27_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      96768,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      48384,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_27_2A1_IgM-FITC.ndpi": {
+    "Name": "R24_27_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      35840,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      17920,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_32_1A1_C1Q-FITC.ndpi": {
+    "Name": "R24_32_1A1_C1Q-FITC",
+    "Slide_LV0_dims": [
+      46592,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      23296,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_44_2A1_IgG-FITC.ndpi": {
+    "Name": "R24_44_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      68096,
+      43008
+    ],
+    "Slide_LV1_dims": [
+      34048,
+      21504
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_45_2A1_C1q-FITC.ndpi": {
+    "Name": "R24_45_2A1_C1q-FITC",
+    "Slide_LV0_dims": [
+      78848,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      39424,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_45_2A1_C3-FITC.ndpi": {
+    "Name": "R24_45_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      28672,
+      37632
+    ],
+    "Slide_LV1_dims": [
+      14336,
+      18816
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_45_2A1_IgA-FITC.ndpi": {
+    "Name": "R24_45_2A1_IgA-FITC",
+    "Slide_LV0_dims": [
+      82432,
+      48384
+    ],
+    "Slide_LV1_dims": [
+      41216,
+      24192
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_45_2A1_IgG-FITC.ndpi": {
+    "Name": "R24_45_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      71680,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      35840,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_45_2A1_IgM-FITC.ndpi": {
+    "Name": "R24_45_2A1_IgM-FITC",
+    "Slide_LV0_dims": [
+      35840,
+      32256
+    ],
+    "Slide_LV1_dims": [
+      17920,
+      16128
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_48_2A1_C3-FITC.ndpi": {
+    "Name": "R24_48_2A1_C3-FITC",
+    "Slide_LV0_dims": [
+      14336,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      7168,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+  "R24_48_2A1_IgG-FITC.ndpi": {
+    "Name": "R24_48_2A1_IgG-FITC",
+    "Slide_LV0_dims": [
+      17920,
+      21504
+    ],
+    "Slide_LV1_dims": [
+      8960,
+      10752
+    ],
+    "Micron_per_pixel_x_LV0": 0.22076029846792353,
+    "Micron_per_pixel_x_LV1": 0.44152059693584705
+  },
+}
+
