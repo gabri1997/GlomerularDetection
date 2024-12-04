@@ -27,7 +27,7 @@ def split_wsi_and_create_folders_from_yaml(SEED, yaml_path, train_percentage):
     return flat_train, flat_test
 
 # Funzione per copiare annotazioni e immagini
-def copy_files_by_prefisso(annotazioni_folder, wsi_list, dest_img_folder, dest_annot_folder):
+def copy_files(annotazioni_folder, wsi_list, dest_img_folder, dest_annot_folder, immagini_base_folder_3D, immagini_base_folder_HAMA):
 
     # Ottenere la lista delle annotazioni
     annotazioni_subfolders = sorted(os.listdir(annotazioni_folder))
@@ -71,17 +71,19 @@ def copy_files_by_prefisso(annotazioni_folder, wsi_list, dest_img_folder, dest_a
 
 if __name__ == '__main__':
 
-    # Definire i percorsi delle cartelle
-    annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Final_yolo_annotations_wsi_folder/Final_patches_yolo_annotations_folder_Lv1_scale_05_Overlapped'    # Cartella con le annotazioni
-    immagini_base_folder_3D = '/work/grana_pbl/Detection_Glomeruli/Output_patchified_files_folder/Output_patchified_files_Lv1_3D_Overlapping05'          # Cartella dei patches già estratti
-    immagini_base_folder_HAMA = '/work/grana_pbl/Detection_Glomeruli/Output_patchified_files_folder/Output_patchified_files_Lv1_HAMA_Overlapping05'      # Cartella che contiene le WSI con la sottocartella 'tiles'
-    dest_train_immagini_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/images/train'        # Cartella di destinazione per immagini di train
-    dest_train_annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/labels/train'     # Cartella di destinazione per annotazioni di train
-    dest_val_immagini_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/images/val'            # Cartella di destinazione per immagini di val
-    dest_val_annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/labels/val'  
-    yaml_path = '/work/grana_pbl/Detection_Glomeruli/wsi_file_for_split.yaml'
-    SEED = 42       # Cartella di destinazione per annotazioni di val
-    train_percentage = 0.7
+    # SOURCE PATCHES AND ANNOTATIONS FOLDERS
+    annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Final_yolo_annotations_wsi_folder/Final_patches_yolo_annotations_folder_Lv1_scale_05_Overlapped'    # Cartella con le annotazioni di tutti i patches estratte a tutte le WSI (3D + HAMA)
+    immagini_base_folder_3D = '/work/grana_pbl/Detection_Glomeruli/Output_patchified_files_folder/Output_patchified_files_Lv1_3D_Overlapping05'                   # Cartella che contiene le WSI con la sottocartella 'tiles' per le 3D
+    immagini_base_folder_HAMA = '/work/grana_pbl/Detection_Glomeruli/Output_patchified_files_folder/Output_patchified_files_Lv1_HAMA_Overlapping05'               # Cartella che contiene le WSI con la sottocartella 'tiles' per le HAMA
+    # YOLO DESTINATION FOLDERS
+    dest_train_immagini_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/images/train'        # Cartella di destinazione per immagini di train yolo
+    dest_train_annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/labels/train'     # Cartella di destinazione per annotazioni di train yolo
+    dest_val_immagini_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/images/val'            # Cartella di destinazione per immagini di val yolo
+    dest_val_annotazioni_folder = '/work/grana_pbl/Detection_Glomeruli/Yolo_dataset_Lv1_Overlapping05_final/labels/val'         # Cartella di destinazione per annotazioni di val yolo
+    # ADDITIONAL 
+    yaml_path = '/work/grana_pbl/Detection_Glomeruli/wsi_file_for_split.yaml'  # File che contiene i nomi di tutte le wsi per generare uno split, se si aggiungono wsi basta modificare il file 
+    SEED = 42       # Seed per garantire riproducibilità dell'esperimento
+    train_percentage = 0.7  # Percentuale di indici di WSI da mettere in tain (attenzione, non corrisponde al numero di WSI perchè un indice puo avere piu wsi a seconda del numero di colorazioni)
 
     # Creazione delle cartelle di destinazione se non esistono
     os.makedirs(dest_train_annotazioni_folder, exist_ok=True)
@@ -93,6 +95,6 @@ if __name__ == '__main__':
     print('Train prefissi : ', sorted(wsi_train))
     print('Test prefissi : ', sorted(wsi_test))
 
-    #copy_files_by_prefisso(annotazioni_folder, wsi_train, dest_train_immagini_folder, dest_train_annotazioni_folder)
-    #copy_files_by_prefisso(annotazioni_folder, wsi_test, dest_val_immagini_folder, dest_val_annotazioni_folder)
+    copy_files(annotazioni_folder, wsi_train, dest_train_immagini_folder, dest_train_annotazioni_folder, immagini_base_folder_3D, immagini_base_folder_HAMA)
+    copy_files(annotazioni_folder, wsi_test, dest_val_immagini_folder, dest_val_annotazioni_folder, immagini_base_folder_3D, immagini_base_folder_HAMA)
     print('END')
