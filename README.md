@@ -6,6 +6,11 @@ This repository contains a project aimed at detecting glomeruli in histopatholog
 
 The project uses **YOLOv8**, a state-of-the-art object detection model, to identify glomeruli in large-scale Whole Slide Images (WSI). The dataset used for training and validation contains annotations in the form of bounding boxes around glomeruli regions. The detection model is trained on these annotated data, and the output includes bounding boxes that mark the predicted glomeruli locations.
 
+## Dataset
+
+The dataset consists of 195 Whole Slide images (WSIs), of which 185 have been annotated by drawing a bounding box around each identified glomerulus. Each WSI is opened using the OpenSlide library, selecting the second resolution level (level 1, less detailed compared to level 0) to facilitate processing.
+
+
 ## Key Features
 - **YOLOv8 Model**: Utilizes the YOLOv8 architecture for fast and accurate object detection.
 - **Preprocessing**: Handles the segmentation and patching of WSIs for training purposes.
