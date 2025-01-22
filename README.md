@@ -47,7 +47,7 @@ At the end of the process, the bounding boxes for each image are saved and displ
 
 The evaluation of the algorithm, described in the following sections, is carried out on the reconstructed map following the process just described.
 
-**Performance Evaluation**  
+### Performance Evaluation
 
 **Mean IoU Calculation**  
 For each WSI, the Intersection Over Union (IoU) was calculated between each ground truth bounding box and the corresponding predicted bounding box from the model. Subsequently, the mean IoU values for individual WSIs were averaged to obtain a single value for the entire dataset.
