@@ -619,7 +619,7 @@ if __name__ == '__main__':
         # Salviamo la wsi con una data qualità rispetto a 100
         "wsi_level" : 1, 
         "quality" : 70,
-        "min_area": 500,
+        "min_area": 0,
         "save_wsi_flag": False
     }
   
