@@ -54,7 +54,22 @@ For each WSI, the Intersection Over Union (IoU) was calculated between each grou
 
 The association between predictions and ground truth was made by determining the centroid of each ground truth bounding box and pairing it with the predicted bounding box whose centroid was closest. In the IoU calculation, only pairs with IoU > 0 were considered. The final mean IoU value calculated for the entire dataset is: 0.735.
 
-![Confusion Matrix](confusion_matrix.png)
+**True Positives (TP), False Positives (FP), and False Negatives (FN)**  
+A total of 595 ground truth glomeruli were annotated in the test WSIs.
+
+A prediction is considered a True Positive (TP) if the IoU calculated between the predicted bounding box and the ground truth bounding box exceeds a predefined threshold (0.5 in our case). The total number of TPs found is 525.
+
+A prediction is considered a False Positive (FP) if it does not match any ground truth (insufficient IoU). The total number of FPs found is 219.
+
+False Negatives (FN) represent the ground truths that were not correctly detected by the model, i.e., glomeruli that were not identified despite being present in the image. The total number of FNs found is 70.
+
+**Recall (or Sensitivity or True Positive Rate)**  
+Indicates the model's ability to correctly identify all the glomeruli present.  
+Recall = TP / (TP + FN) = 0.882 (88.2%).
+
+**Precision (or Positive Predictive Value)**  
+Measures the proportion of true positives relative to all results classified as positive.  
+Precision = TP / (TP + FP) = 0.706 (70.6%).
 
 ## Key Features
 - **YOLOv8 Model**: Utilizes the YOLOv8 architecture for fast and accurate object detection.
