@@ -10,6 +10,17 @@ The project uses **YOLOv8**, a state-of-the-art object detection model, to ident
 
 The dataset consists of 195 Whole Slide images (WSIs), of which 185 have been annotated by drawing a bounding box around each identified glomerulus. Each WSI is opened using the OpenSlide library, selecting the second resolution level (level 1, less detailed compared to level 0) to facilitate processing.
 
+## Segmentation
+
+Each WSI underwent a pre-processing step to separate the tissue portion from the background, resulting in a segmentation mask.
+
+**Loading and Conversion**: The input image (WSI) is converted to grayscale to simplify further processing.
+
+**Processing**: A binary mask is then generated, where pixels representing tissue are assigned a value of 1 (white), while background pixels are assigned a value of 0 (black). Pixels are selected based on a specified range of intensity values between a defined lower and upper bound. Morphological operations are subsequently applied to refine the mask by expanding tissue contours, filling small holes, and connecting adjacent regions, thereby improving segmentation quality.
+
+**Validation**: Patch selection is guided by the generated mask, considering only patches containing a sufficient amount of tissue. Specifically, a patch is discarded if more than 80% of its area consists of background (i.e., it contains little to no tissue).
+
+**Saving and Visualization:** The segmented mask is saved and overlaid on the WSI to facilitate visual inspection.
 
 ## Key Features
 - **YOLOv8 Model**: Utilizes the YOLOv8 architecture for fast and accurate object detection.
